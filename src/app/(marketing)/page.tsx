@@ -19,6 +19,14 @@ const secondRow = [
     text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit maiores eveniet eligendi dignissimos.",
     image: "https://picsum.photos/300/150",
   },
+  {
+    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit maiores eveniet eligendi dignissimos.",
+    image: "https://picsum.photos/300/150",
+  },
+  {
+    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit maiores eveniet eligendi dignissimos.",
+    image: "https://picsum.photos/300/150",
+  },
 ];
 
 export default async function Home() {
@@ -49,9 +57,11 @@ export default async function Home() {
             Medical training techniques
           </h2>
 
-          <ul className="flex gap-5">
+          <ul className="grid grid-cols-3 gap-5">
             {secondRow.map(({ text, image }, idx) => (
               <li key={idx} className="flex gap-4">
+                {idx !== 0 && idx !== 3 && <Separator orientation="vertical" />}
+
                 <div className="flex flex-col gap-4" key={image}>
                   <Image src={image} width={400} height={200} alt="signal" />
 
@@ -59,10 +69,6 @@ export default async function Home() {
                     {text}
                   </p>
                 </div>
-
-                {idx !== secondRow.length - 1 && (
-                  <Separator orientation="vertical" />
-                )}
               </li>
             ))}
           </ul>
