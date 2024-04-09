@@ -7,14 +7,28 @@ export const Header = () => {
       <ul className="flex w-full max-w-5xl items-center justify-between">
         <h2 className="flex grow">Logo</h2>
 
-        <div className="flex items-center gap-2">
-          <Link href={"#"}>Webinars</Link>
-          <Link href={"#"}>Nosotros</Link>
-          <Link href={"#"}>Soporte</Link>
-          <Link href={"#"}>Galeria</Link>
-          <Link href={"#"}>Simulacion</Link>
+        <div className="flex items-center gap-4">
+          <Button asChild variant={"ghost"}>
+            <Link href={"#"}>Webinars</Link>
+          </Button>
 
-          <Button asChild>
+          <Button asChild variant={"ghost"}>
+            <Link href={"#"}>Nosotros</Link>
+          </Button>
+
+          <Button asChild variant={"ghost"}>
+            <Link href={"#"}>Soporte</Link>
+          </Button>
+
+          <Button asChild variant={"ghost"}>
+            <Link href={"#"}>Galeria</Link>
+          </Button>
+
+          <Button asChild variant={"ghost"}>
+            <Link href={"#"}>Simulacion</Link>
+          </Button>
+
+          <Button asChild variant={"ghost"}>
             <Link href={"#"}>Login</Link>
           </Button>
         </div>
