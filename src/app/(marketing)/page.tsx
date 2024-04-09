@@ -4,28 +4,28 @@ import { Separator } from "~/components/ui/separator";
 
 const secondRow = [
   {
-    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit maiores eveniet eligendi dignissimos.",
-    image: "https://picsum.photos/300/150",
+    text: "Abdominal",
+    image: "/abdominal.png",
   },
   {
-    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit maiores eveniet eligendi dignissimos.",
-    image: "https://picsum.photos/300/150",
+    text: "Musculo-esqueletica",
+    image: "/muscle.png",
   },
   {
-    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit maiores eveniet eligendi dignissimos.",
-    image: "https://picsum.photos/300/150",
+    text: "Obstretica",
+    image: "/obstetric.png",
   },
   {
-    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit maiores eveniet eligendi dignissimos.",
-    image: "https://picsum.photos/300/150",
+    text: "Ginecologica",
+    image: "/gynecological.png",
   },
   {
-    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit maiores eveniet eligendi dignissimos.",
-    image: "https://picsum.photos/300/150",
+    text: "Urologica",
+    image: "/urology.png",
   },
   {
-    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit maiores eveniet eligendi dignissimos.",
-    image: "https://picsum.photos/300/150",
+    text: "Vascular",
+    image: "/vascular.png",
   },
 ];
 
@@ -36,12 +36,13 @@ export default async function Home() {
         <article className="flex max-w-5xl gap-4">
           <div className="flex max-w-5xl flex-col gap-4">
             <h1 className="text-5xl font-extrabold tracking-tight text-white sm:text-[5rem]">
-              <span className="text-sky-900">Master</span> ultrasound techniques
+              <span className="text-sky-900">Biorizon</span> echography course
+              platform
             </h1>
 
             <p className="text-sky-900">
-              Learn how to use ultrasound to diagnose and treat patients with
-              our comprehensive courses.
+              Practical and theoretical training in echography for medical
+              professionals. Learn to accurately interpret images.
             </p>
 
             <Button>Learn more</Button>
