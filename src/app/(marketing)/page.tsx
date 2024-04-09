@@ -1,31 +1,41 @@
 import Image from "next/image";
 import { Button } from "~/components/ui/button";
-import { Separator } from "~/components/ui/separator";
 
 const secondRow = [
   {
     text: "Abdominal",
     image: "/abdominal.png",
+    description: `Una ecografía abdominal generalmente muestra una vista en tiempo real de los órganos abdominales internos,
+      como el hígado, vesícula biliar, páncreas, riñones y bazo.`,
   },
   {
     text: "Musculo-esqueletica",
     image: "/muscle.png",
+    description: `Una ecografía musculoesquelética muestra imágenes detalladas de los tejidos blandos como músculos, 
+      tendones, ligamentos, bolsas y articulaciones`,
   },
   {
     text: "Obstretica",
     image: "/obstetric.png",
+    description: `Una ecografía obstétrica proporciona imágenes del feto dentro del útero, 
+    permitiendo a los profesionales de la salud evaluar el desarrollo y bienestar fetal.`,
   },
   {
     text: "Ginecologica",
-    image: "/gynecological.png",
+    image: "/gynecology.png",
+    description: `Una ecografía ginecológica se centra en el sistema reproductor femenino, incluyendo el útero, ovarios y, 
+    en algunos casos, la zona pélvica circundante. `,
   },
   {
     text: "Urologica",
     image: "/urology.png",
+    description: `Una ecografía urológica visualiza los órganos del sistema urinario, 
+    como los riñones, la vejiga, y en hombres, la próstata. `,
   },
   {
     text: "Vascular",
     image: "/vascular.png",
+    description: `Una ecografía vascular se enfoca en examinar los vasos sanguíneos, incluyendo arterias y venas`,
   },
 ];
 
@@ -53,23 +63,32 @@ export default async function Home() {
       </section>
 
       <section className="flex w-full justify-center bg-primary py-10 text-primary-foreground">
-        <article className="flex max-w-5xl flex-col gap-6">
-          <h2 className="font-semibold uppercase">
+        <article className="flex max-w-5xl flex-col gap-8">
+          <h2 className="text-lg font-bold uppercase">
             Medical training techniques
           </h2>
 
-          <ul className="grid grid-cols-3 gap-5">
-            {secondRow.map(({ text, image }, idx) => (
-              <li key={idx} className="flex gap-4">
-                {idx !== 0 && idx !== 3 && <Separator orientation="vertical" />}
+          <ul className="grid grid-cols-3 gap-8">
+            {secondRow.map(({ text, image, description }, idx) => (
+              <li key={idx} className="flex rounded-2xl border bg-muted/10 p-6">
+                <section className="flex flex-col gap-4" key={image}>
+                  <Image
+                    src={image}
+                    width={300}
+                    height={150}
+                    alt="signal"
+                    layout="responsive"
+                    className="max-h-[250px] flex-grow rounded-2xl object-cover"
+                  />
 
-                <div className="flex flex-col gap-4" key={image}>
-                  <Image src={image} width={400} height={200} alt="signal" />
+                  <div className="mb-auto flex flex-col gap-2">
+                    <h3 className="text-center font-semibold">{text}</h3>
 
-                  <p className="text-center text-sm text-muted-foreground">
-                    {text}
-                  </p>
-                </div>
+                    <p className="text-center text-sm text-gray-400">
+                      {description}
+                    </p>
+                  </div>
+                </section>
               </li>
             ))}
           </ul>
