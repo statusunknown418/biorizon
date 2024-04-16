@@ -1,0 +1,44 @@
+{
+  "login": "Iniciar sesión",
+  "logout": "Cerrar sesión",
+  "landingPage": {
+    "logo": "Biorizon",
+    "title": "Bienvenidos",
+    "subheading": "Plataforma de entrenamiento en ecografía",
+    "description": "Entrenamiento practico y teórico en ecografía para profesionales de la salud",
+    "actionButton": "Conocer mas",
+    "webinarsTitle": "Tecnicas disponibles",
+    "webinars": [
+      {
+        "text": "Abdominal",
+        "image": "/abdominal.png",
+        "description": "Una ecografía abdominal generalmente muestra una vista en tiempo real de los órganos abdominales internos, como el hígado, vesícula biliar, páncreas, riñones y bazo."
+      },
+      {
+        "text": "Musculo-esqueletica",
+        "image": "/muscle.png",
+        "description": "Una ecografía musculoesquelética muestra imágenes detalladas de los tejidos blandos como músculos, tendones, ligamentos, bolsas y articulaciones"
+      },
+      {
+        "text": "Obstretica",
+        "image": "/obstetric.png",
+        "description": "Una ecografía obstétrica proporciona imágenes del feto dentro del útero, permitiendo a los profesionales de la salud evaluar el desarrollo y bienestar fetal."
+      },
+      {
+        "text": "Ginecologica",
+        "image": "/gynecology.png",
+        "description": "Una ecografía ginecológica se centra en el sistema reproductor femenino, incluyendo el útero, ovarios y, en algunos casos, la zona pélvica circundante."
+      },
+      {
+        "text": "Urologica",
+        "image": "/urology.png",
+        "description": "Una ecografía urológica visualiza los órganos del sistema urinario, como los riñones, la vejiga, y en hombres, la próstata. "
+      },
+      {
+        "text": "Vascular",
+        "image": "/vascular.png",
+        "description": "Una ecografía vascular se enfoca en examinar los vasos sanguíneos, incluyendo arterias y venas"
+      }
+    ]
+  }
+}

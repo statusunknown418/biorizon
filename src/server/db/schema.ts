@@ -3,8 +3,8 @@ import {
   index,
   int,
   primaryKey,
-  sqliteTableCreator,
-  text,
+  sqliteTable,
+  text
 } from "drizzle-orm/sqlite-core";
 import { type AdapterAccount } from "next-auth/adapters";
 
@@ -14,13 +14,12 @@ import { type AdapterAccount } from "next-auth/adapters";
  *
  * @see https://orm.drizzle.team/docs/goodies#multi-project-schema
  */
-export const createTable = sqliteTableCreator((n) => n);
 
-export const posts = createTable(
-  "post",
+export const images = sqliteTable(
+  "images",
   {
     id: int("id", { mode: "number" }).primaryKey({ autoIncrement: true }),
-    name: text("name", { length: 256 }),
+    url: text("url", { length: 255 }).notNull(),
     createdById: text("createdById", { length: 255 })
       .notNull()
       .references(() => users.id),
@@ -30,12 +29,12 @@ export const posts = createTable(
     updatedAt: int("updatedAt", { mode: "timestamp" }),
   },
   (example) => ({
-    createdByIdIdx: index("createdById_idx").on(example.createdById),
-    nameIndex: index("name_idx").on(example.name),
+    createdByIdIdx: index("images_createdById_idx").on(example.createdById),
+    urlIdx: index("images_url_idx").on(example.url),
   }),
 );
 
-export const users = createTable("user", {
+export const users = sqliteTable("user", {
   id: text("id", { length: 255 }).notNull().primaryKey(),
   name: text("name", { length: 255 }),
   email: text("email", { length: 255 }).notNull(),
@@ -49,7 +48,7 @@ export const usersRelations = relations(users, ({ many }) => ({
   accounts: many(accounts),
 }));
 
-export const accounts = createTable(
+export const accounts = sqliteTable(
   "account",
   {
     userId: text("userId", { length: 255 })
@@ -80,7 +79,7 @@ export const accountsRelations = relations(accounts, ({ one }) => ({
   user: one(users, { fields: [accounts.userId], references: [users.id] }),
 }));
 
-export const sessions = createTable(
+export const sessions = sqliteTable(
   "session",
   {
     sessionToken: text("sessionToken", { length: 255 }).notNull().primaryKey(),
@@ -98,7 +97,7 @@ export const sessionsRelations = relations(sessions, ({ one }) => ({
   user: one(users, { fields: [sessions.userId], references: [users.id] }),
 }));
 
-export const verificationTokens = createTable(
+export const verificationTokens = sqliteTable(
   "verificationToken",
   {
     identifier: text("identifier", { length: 255 }).notNull(),
