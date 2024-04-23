@@ -1,0 +1,65 @@
+table account {
+  userId text(255) [not null]
+  type text(255) [not null]
+  provider text(255) [not null]
+  providerAccountId text(255) [not null]
+  refresh_token text
+  access_token text
+  expires_at integer
+  token_type text(255)
+  scope text(255)
+  id_token text
+  session_state text(255)
+
+  indexes {
+    (provider, providerAccountId) [pk]
+    userId [name: 'account_userId_idx']
+  }
+}
+
+table images {
+  id integer [pk, not null, increment]
+  url text(255) [not null]
+  createdById text(255) [not null]
+  created_at integer [not null, default: `CURRENT_TIMESTAMP`]
+  updatedAt integer
+
+  indexes {
+    createdById [name: 'images_createdById_idx']
+    url [name: 'images_url_idx']
+  }
+}
+
+table session {
+  sessionToken text(255) [pk, not null]
+  userId text(255) [not null]
+  expires integer [not null]
+
+  indexes {
+    userId [name: 'session_userId_idx']
+  }
+}
+
+table user {
+  id text(255) [pk, not null]
+  name text(255)
+  email text(255) [not null]
+  emailVerified integer [default: `CURRENT_TIMESTAMP`]
+  image text(255)
+}
+
+table verificationToken {
+  identifier text(255) [not null]
+  token text(255) [not null]
+  expires integer [not null]
+
+  indexes {
+    (identifier, token) [pk]
+  }
+}
+
+ref: account.userId > user.id
+
+ref: images.createdById > user.id
+
+ref: session.userId - user.id

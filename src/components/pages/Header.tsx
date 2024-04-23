@@ -1,48 +1,73 @@
 "use client";
 
-import { signIn } from "next-auth/react";
+import { signIn, signOut, useSession } from "next-auth/react";
 import Link from "next/link";
+import { cn } from "~/lib/utils";
 import es from "~/locales/es.json";
 import { Button } from "../ui/button";
 
-export const Header = () => {
+export const Header = ({ className }: { className?: string }) => {
+  const { data, status } = useSession();
+
   return (
-    <nav className="sticky inset-0 flex w-full items-center justify-center bg-primary p-3">
-      <ul className="flex w-full max-w-5xl items-center justify-between">
-        <h2 className="flex grow">{es.landingPage.logo}</h2>
+    <nav
+      className={cn(
+        "sticky inset-0 flex w-full items-center justify-center bg-background p-3",
+        className,
+      )}
+    >
+      <ul
+        className={cn(
+          "flex w-full items-center justify-between",
+          status === "authenticated"
+            ? "max-w-6xl text-muted-foreground"
+            : "max-w-5xl",
+        )}
+      >
+        <Button className="flex grow" variant={"ghost"} asChild>
+          <Link href={status === "authenticated" ? "/home" : "/"}>
+            {es.landingPage.logo}
+          </Link>
+        </Button>
 
         <div className="flex items-center gap-4">
-          <Button asChild>
-            <Link href={"#"}>Webinars</Link>
+          <Button asChild variant={"ghost"}>
+            <Link href={"/home/webinars"}>Webinars</Link>
           </Button>
 
-          <Button asChild>
-            <Link href={"#"}>Galeria</Link>
+          <Button asChild variant={"ghost"}>
+            <Link href={"/home/gallery"}>Galeria</Link>
           </Button>
 
-          <Button asChild>
-            <Link href={"#"}>Simulacion</Link>
+          <Button asChild variant={"ghost"}>
+            <Link href={"/about-us"}>Nosotros</Link>
           </Button>
 
-          <Button asChild>
-            <Link href={"#"}>Nosotros</Link>
+          <Button asChild variant={"ghost"}>
+            <Link href={"/support"}>Soporte</Link>
           </Button>
 
-          <Button asChild>
-            <Link href={"#"}>Soporte</Link>
-          </Button>
-
-          <Button
-            asChild
-            variant={"outline"}
-            onClick={() =>
-              signIn("google", {
-                callbackUrl: "/home",
-              })
-            }
-          >
-            <Link href={"#"}>Iniciar sesion</Link>
-          </Button>
+          {!!data?.user.email ? (
+            <Button
+              onClick={() =>
+                signOut({
+                  callbackUrl: "/",
+                })
+              }
+            >
+              Cerrar sesion
+            </Button>
+          ) : (
+            <Button
+              onClick={() =>
+                signIn("google", {
+                  callbackUrl: "/home",
+                })
+              }
+            >
+              Iniciar sesion
+            </Button>
+          )}
         </div>
       </ul>
     </nav>

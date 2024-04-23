@@ -14,7 +14,6 @@ import { type AdapterAccount } from "next-auth/adapters";
  *
  * @see https://orm.drizzle.team/docs/goodies#multi-project-schema
  */
-
 export const images = sqliteTable(
   "images",
   {
@@ -34,6 +33,13 @@ export const images = sqliteTable(
   }),
 );
 
+export const imagesRelations = relations(images, ({ one }) => ({
+  createdBy: one(users, {
+    fields: [images.createdById],
+    references: [users.id],
+  }),
+}));
+
 export const users = sqliteTable("user", {
   id: text("id", { length: 255 }).notNull().primaryKey(),
   name: text("name", { length: 255 }),
@@ -46,6 +52,7 @@ export const users = sqliteTable("user", {
 
 export const usersRelations = relations(users, ({ many }) => ({
   accounts: many(accounts),
+  images: many(images)
 }));
 
 export const accounts = sqliteTable(

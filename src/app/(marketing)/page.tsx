@@ -8,7 +8,7 @@ export default async function Home() {
       <section className="flex w-full justify-center bg-gradient-to-b from-[#8CDBE0] to-[#61BFC8] py-20">
         <article className="flex max-w-5xl gap-4">
           <div className="flex max-w-5xl flex-col gap-4">
-            <h1 className="text-6xl font-extrabold tracking-tight text-primary">
+            <h1 className="text-6xl font-extrabold tracking-tight text-sky-900">
               Biorizon
             </h1>
 
@@ -25,7 +25,7 @@ export default async function Home() {
         </article>
       </section>
 
-      <section className="flex w-full justify-center bg-primary py-10 text-primary-foreground">
+      <section className="flex w-full justify-center py-10 text-primary-foreground">
         <article className="flex max-w-5xl flex-col gap-8">
           <h2 className="text-lg font-bold uppercase">
             {es.landingPage.webinarsTitle}
@@ -48,7 +48,9 @@ export default async function Home() {
                     />
 
                     <div className="mb-auto flex flex-col gap-2">
-                      <h3 className="text-center font-semibold">{text}</h3>
+                      <h3 className="text-center font-semibold text-foreground">
+                        {text}
+                      </h3>
 
                       <p className="text-center text-sm text-gray-400">
                         {description}
