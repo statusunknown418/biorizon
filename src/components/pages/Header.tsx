@@ -1,6 +1,6 @@
 "use client";
 
-import { signIn, signOut, useSession } from "next-auth/react";
+import { signIn, useSession } from "next-auth/react";
 import Link from "next/link";
 import { cn } from "~/lib/utils";
 import es from "~/locales/es.json";
@@ -12,19 +12,17 @@ export const Header = ({ className }: { className?: string }) => {
   return (
     <nav
       className={cn(
-        "sticky inset-0 flex w-full items-center justify-center bg-background p-3",
+        "flex w-full items-center justify-center border-b bg-background p-3",
         className,
       )}
     >
       <ul
         className={cn(
           "flex w-full items-center justify-between",
-          status === "authenticated"
-            ? "max-w-6xl text-muted-foreground"
-            : "max-w-5xl",
+          status === "authenticated" ? "text-muted-foreground" : "",
         )}
       >
-        <Button className="flex grow" variant={"ghost"} asChild>
+        <Button className="text-foreground" variant={"ghost"} asChild>
           <Link href={status === "authenticated" ? "/home" : "/"}>
             {es.landingPage.logo}
           </Link>
@@ -47,17 +45,7 @@ export const Header = ({ className }: { className?: string }) => {
             <Link href={"/support"}>Soporte</Link>
           </Button>
 
-          {!!data?.user.email ? (
-            <Button
-              onClick={() =>
-                signOut({
-                  callbackUrl: "/",
-                })
-              }
-            >
-              Cerrar sesion
-            </Button>
-          ) : (
+          {!data?.user.email && (
             <Button
               onClick={() =>
                 signIn("google", {

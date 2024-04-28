@@ -62,6 +62,10 @@
   "modules": [
     {
       "title": "Fundamentos de la Ecografía Pediátrica Abdominal",
+      "description": "Este módulo cubre los principios básicos de la ecografía abdominal pediátrica, incluyendo la interacción de los ultrasonidos con los tejidos.",
+      "image": "/1.png",
+      "link": "/home/modules/fundamentos-ecografia",
+      "quizLInk": "https://www.youtube.com/watch?v=oHg5SJYRHA0",
       "topics": [
         {
           "title": "Introducción a la ecografía abdominal",
@@ -169,6 +173,10 @@
     },
     {
       "title": "Técnicas de Imagen y Manejo del Transductor",
+      "description": "Este módulo se enfoca en las técnicas de imagen y el manejo del transductor C5-2 para obtener imágenes óptimas de los órganos abdominales en pacientes pediátricos.",
+      "image": "/2.png",
+      "link": "/home/modules/tecnicas-imagen",
+      "quizLInk": "https://www.youtube.com/watch?v=oHg5SJYRHA0",
       "topics": [
         {
           "title": "Técnicas básicas de manejo del transductor C5-2",
@@ -228,6 +236,10 @@
     },
     {
       "title": "Ecografía del Hígado, Vesícula Biliar y Vías Biliares",
+      "description": "Este módulo se centra en la ecografía de las estructuras hepáticas y biliares en pacientes pediátricos, incluyendo la identificación de estructuras normales y variant",
+      "image": "/3.png",
+      "link": "/home/modules/ecografia-hepatica",
+      "quizLInk": "https://www.youtube.com/watch?v=oHg5SJYRHA0",
       "topics": [
         {
           "title": "Ecografía hepática",
@@ -265,6 +277,7 @@
         },
         {
           "title": "Ecografía de la vesícula biliar y vías biliares",
+          "images": ["/3.2-1.png"],
           "subTopics": [
             {
               "title": "Técnicas específicas para la visualización de la vesícula y vías biliares",
@@ -300,6 +313,10 @@
     },
     {
       "title": "Patologías Hepáticas y Biliares en Pediatría: Diagnóstico y Manejo",
+      "description": "Este módulo aborda las patologías hepáticas y biliares más comunes en pacientes pediátricos, incluyendo hepatitis, esteatosis hepática entre otras",
+      "link": "/home/modules/patologias-hepaticas-biliares",
+      "quizLInk": "https://www.youtube.com/watch?v=oHg5SJYRHA0",
+      "image": "/4.png",
       "topics": [
         {
           "title": "Patologías Hepáticas Comunes en Pediatría",
@@ -370,9 +387,14 @@
     },
     {
       "title": "Avances y Casos Clínicos",
+      "description": "Este módulo presenta los avances más recientes en ecografía pediátrica hepática y biliar, incluyendo nuevas técnicas y tecnologías, así como sesiones prácticas con casos clínicos para mejorar la interpretación de imágenes y la toma de decisiones clínicas.",
+      "image": "/5.png",
+      "link": "/home/modules/avances-casos-clinicos",
+      "quizLInk": "https://www.youtube.com/watch?v=oHg5SJYRHA0",
       "topics": [
         {
           "title": "Avances recientes en ecografía pediátrica hepática y biliar",
+          "images": [],
           "subTopics": [
             {
               "title": "Nuevas técnicas y tecnologías: Aplicaciones del Doppler y otras modalidades avanzadas",
@@ -412,4 +434,4 @@
       ]
     }
   ]
-} 
+}

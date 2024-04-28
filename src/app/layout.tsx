@@ -3,7 +3,6 @@ import "~/styles/globals.css";
 import { Inter } from "next/font/google";
 
 import { AuthProvider } from "~/components/AuthProvider";
-import { Header } from "~/components/pages/Header";
 import { cn } from "~/lib/utils";
 import { auth } from "~/server/auth";
 import { TRPCReactProvider } from "~/trpc/react";
@@ -30,15 +29,12 @@ export default async function RootLayout({
     <html lang="en">
       <body
         className={cn(
-          `font-sans ${inter.variable}`,
+          `w-full font-sans ${inter.variable}`,
           "bg-background text-foreground",
         )}
       >
         <AuthProvider session={session}>
-          <TRPCReactProvider>
-            <Header />
-            <div>{children}</div>
-          </TRPCReactProvider>
+          <TRPCReactProvider>{children}</TRPCReactProvider>
         </AuthProvider>
       </body>
     </html>
