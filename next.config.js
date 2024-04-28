@@ -12,6 +12,14 @@ const config = {
         hostname: "picsum.photos",
         protocol: "https",
       },
+      {
+        hostname: "cdn.discordapp.com",
+        protocol: "https",
+      },
+      {
+        protocol: "https",
+        hostname: "lh3.googleusercontent.com",
+      },
     ],
   },
 };
