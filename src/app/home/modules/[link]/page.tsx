@@ -25,7 +25,7 @@ export default function ModulesPage({ params }: { params: { link: string } }) {
   if (!learningMod) {
     return (
       <section>
-        Module not found
+        <h2>Module not found</h2>
         <Button>
           <Link href={"/home"}>Go back</Link>
         </Button>
