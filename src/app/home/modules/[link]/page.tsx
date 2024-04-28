@@ -22,8 +22,6 @@ export default function ModulesPage({ params }: { params: { link: string } }) {
   const prevModule = es.modules[moduleIndex - 1];
   const nextModule = es.modules[moduleIndex + 1];
 
-  console.log({ learningMod });
-
   if (!learningMod) {
     return (
       <section>
