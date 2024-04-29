@@ -8,6 +8,7 @@ import {
   AccordionTrigger,
 } from "~/components/ui/accordion";
 import { Button } from "~/components/ui/button";
+import { Separator } from "~/components/ui/separator";
 import es from "~/locales/es.json";
 
 export default function ModulesPage({ params }: { params: { link: string } }) {
@@ -62,19 +63,6 @@ export default function ModulesPage({ params }: { params: { link: string } }) {
 
                 <AccordionContent>
                   <article className="flex flex-col gap-4">
-                    <div className="flex flex-wrap items-center gap-2">
-                      {section.images?.map((image) => (
-                        <Image
-                          key={image}
-                          alt="module-resource"
-                          src={image}
-                          width={200}
-                          height={200}
-                          className="rounded-lg"
-                        />
-                      ))}
-                    </div>
-
                     <ul className="list-disc">
                       {section.subTopics.map((lesson) => (
                         <li key={lesson.title} className="ml-4">
@@ -102,6 +90,30 @@ export default function ModulesPage({ params }: { params: { link: string } }) {
                         </li>
                       ))}
                     </ul>
+
+                    <Separator />
+
+                    <div className="mb-4 flex flex-wrap items-center gap-6">
+                      {section.images?.map((image) => (
+                        <div
+                          key={image}
+                          className="flex max-w-[200px] flex-col gap-2"
+                        >
+                          <Image
+                            key={image}
+                            alt="module-resource"
+                            src={image}
+                            width={200}
+                            height={200}
+                            className="rounded-lg"
+                          />
+
+                          <small className="text-center leading-3 text-muted-foreground">
+                            Imagen referencial del modulo {learningMod.title}
+                          </small>
+                        </div>
+                      ))}
+                    </div>
                   </article>
                 </AccordionContent>
               </li>
