@@ -5,6 +5,16 @@ import { Button } from "~/components/ui/button";
 import es from "~/locales/es.json";
 import { auth } from "~/server/auth";
 
+function toRoman1(num: number) {
+  const letters = ["I", "V", "X", "L", "C", "D", "M"];
+  let result = "";
+  for (let radix = 5; num; radix ^= 7) {
+    result += letters.shift()?.repeat(num % radix) + result;
+    num = Math.floor(num / radix);
+  }
+  return result;
+}
+
 export default async function HomePage() {
   const session = await auth();
 
@@ -21,7 +31,7 @@ export default async function HomePage() {
       </div>
 
       <section className="grid grid-cols-2 gap-4">
-        {es.modules.map((module) => (
+        {es.modules.map((module, idx) => (
           <article
             key={module.title}
             className="flex gap-4 rounded-lg bg-primary p-4  text-primary-foreground"
@@ -35,7 +45,9 @@ export default async function HomePage() {
             />
 
             <div className="flex flex-col gap-2">
-              <h2 className="text-lg font-medium">{module.title}</h2>
+              <h2 className="text-lg font-medium">
+                {toRoman1(idx + 1)}. {module.title}
+              </h2>
 
               <p className="text-sm text-gray-500">{module.description}</p>
 
