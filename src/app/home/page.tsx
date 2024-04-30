@@ -30,39 +30,36 @@ export default async function HomePage() {
         </h2>
       </div>
 
-      <section className="grid grid-cols-2 gap-4">
+      <section className="grid grid-cols-3 gap-8">
         {es.modules.map((module, idx) => (
           <article
             key={module.title}
-            className="flex gap-4 rounded-lg bg-primary p-4  text-primary-foreground"
+            className="flex h-full max-w-sm flex-col items-center justify-between gap-4 rounded-2xl border bg-muted pb-8"
           >
             <Image
               src={module.image}
               width={200}
               height={200}
               alt="image"
-              className="rounded-lg object-cover"
+              className="h-52 w-full overflow-hidden rounded-lg object-cover"
             />
 
-            <div className="flex flex-col gap-2">
-              <h2 className="text-lg font-medium">
+            <div className="flex flex-grow flex-col gap-4 px-8">
+              <h2 className="text-lg font-bold">
                 {toRoman1(idx + 1)}. {module.title}
               </h2>
 
-              <p className="text-sm text-gray-500">{module.description}</p>
-
-              <Button
-                asChild
-                variant={"outline"}
-                size={"sm"}
-                className="mt-auto self-end"
-              >
-                <Link href={module.link}>
-                  Ver más
-                  <ArrowRightIcon />
-                </Link>
-              </Button>
+              <p className="text-sm text-muted-foreground">
+                {module.description}
+              </p>
             </div>
+
+            <Button asChild variant={"outline"}>
+              <Link href={module.link}>
+                Ver más
+                <ArrowRightIcon />
+              </Link>
+            </Button>
           </article>
         ))}
       </section>

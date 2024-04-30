@@ -1,6 +1,7 @@
 import { ArrowLeftIcon, ArrowRightIcon } from "@radix-ui/react-icons";
 import Image from "next/image";
 import Link from "next/link";
+import { PiTriangle } from "react-icons/pi";
 import {
   Accordion,
   AccordionContent,
@@ -8,7 +9,6 @@ import {
   AccordionTrigger,
 } from "~/components/ui/accordion";
 import { Button } from "~/components/ui/button";
-import { Separator } from "~/components/ui/separator";
 import es from "~/locales/es.json";
 
 export default function ModulesPage({ params }: { params: { link: string } }) {
@@ -35,83 +35,69 @@ export default function ModulesPage({ params }: { params: { link: string } }) {
   }
 
   return (
-    <section className="mx-auto flex max-w-3xl flex-col gap-8">
-      <header className="flex flex-col gap-3">
-        <h1 className="text-3xl font-bold tracking-tight">
-          {learningMod.title}
-        </h1>
+    <section className="mx-auto flex max-w-4xl flex-col gap-8">
+      <div className="flex gap-4">
+        <header className="flex flex-col gap-3">
+          <h1 className="text-3xl font-bold tracking-tight">
+            {learningMod.title}
+          </h1>
 
-        <p className="text-muted-foreground">{learningMod.description}</p>
-      </header>
+          <p className="text-muted-foreground">{learningMod.description}</p>
+        </header>
 
-      <Image
-        src={learningMod.image}
-        width={300}
-        height={200}
-        className="rounded-lg"
-        alt="module-main-resource"
-      />
+        <Image
+          src={learningMod.image}
+          width={400}
+          height={300}
+          className="rounded-lg"
+          alt="module-main-resource"
+        />
+      </div>
 
       <Accordion type="multiple">
-        <ul className="list-decimal">
+        <ul>
           {learningMod.topics.map((section) => (
             <AccordionItem key={section.title} value={section.title}>
-              <li key={section.title} className="ml-4">
-                <AccordionTrigger>
+              <li key={section.title}>
+                <AccordionTrigger className="justify-start">
+                  <PiTriangle
+                    size={16}
+                    className="mr-2 rotate-90 text-muted-foreground"
+                  />
                   <h2 className="text-lg font-medium">{section.title}</h2>
                 </AccordionTrigger>
 
                 <AccordionContent>
                   <article className="flex flex-col gap-4">
-                    <ul className="list-disc">
-                      {section.subTopics.map((lesson) => (
-                        <li key={lesson.title} className="ml-4">
-                          <h3 className="text-base font-semibold">
-                            {lesson.title}
-                          </h3>
-
-                          <div className="my-4 ml-4 list-disc text-muted-foreground">
-                            {lesson.contents.map((content, idx) => (
-                              <p
-                                key={content.description}
-                                className="my-2.5 list-item"
-                              >
-                                <span className="mr-1 text-foreground">
-                                  {Array.from({ length: idx + 1 })
-                                    .fill("i")
-                                    .join("")}
-                                  .
-                                </span>
-
-                                {content.description}
-                              </p>
-                            ))}
-                          </div>
-                        </li>
-                      ))}
-                    </ul>
-
-                    <Separator />
-
-                    <div className="mb-4 flex flex-wrap items-center gap-6">
-                      {section.images?.map((image) => (
-                        <div
+                    <div className="mb-4 flex justify-center gap-10">
+                      {section.images?.map((image, idx) => (
+                        <article
                           key={image}
-                          className="flex max-w-[200px] flex-col gap-2"
+                          className="flex gap-2 rounded-lg border"
                         >
                           <Image
                             key={image}
                             alt="module-resource"
                             src={image}
                             width={200}
-                            height={200}
-                            className="rounded-lg"
+                            height={100}
+                            className="rounded-l-lg object-cover"
                           />
 
-                          <small className="text-center leading-3 text-muted-foreground">
-                            Imagen referencial del modulo {learningMod.title}
-                          </small>
-                        </div>
+                          <div className="flex flex-col gap-2 p-4">
+                            <p className="max-w-80 text-base font-medium">
+                              {section.subTopics[idx]?.title}
+                            </p>
+
+                            <Button
+                              asChild
+                              size={"sm"}
+                              className="mb-4 mt-auto"
+                            >
+                              <Link href={"#"}>Saber mas</Link>
+                            </Button>
+                          </div>
+                        </article>
                       ))}
                     </div>
                   </article>
