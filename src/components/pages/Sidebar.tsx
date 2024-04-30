@@ -1,6 +1,6 @@
 "use client";
 
-import { BookmarkIcon, ImageIcon, Pencil1Icon } from "@radix-ui/react-icons";
+import { BookmarkIcon, Pencil1Icon } from "@radix-ui/react-icons";
 import Link from "next/link";
 import { useSelectedLayoutSegment } from "next/navigation";
 import { cn } from "~/lib/utils";
@@ -36,7 +36,7 @@ export const Sidebar = () => {
           Quizzes
         </Link>
 
-        <Link
+        {/* <Link
           href={"/home/gallery"}
           className={cn(
             selectedSegment === "gallery"
@@ -47,7 +47,7 @@ export const Sidebar = () => {
         >
           <ImageIcon />
           Galeria
-        </Link>
+        </Link> */}
 
         <li className="mt-auto">
           <UserDropdown />
