@@ -36,13 +36,15 @@ export default function ModulesPage({ params }: { params: { link: string } }) {
 
   return (
     <section className="mx-auto flex max-w-4xl flex-col gap-8">
-      <div className="flex gap-4">
+      <div className="flex gap-6">
         <header className="flex flex-col gap-3">
-          <h1 className="text-3xl font-bold tracking-tight">
+          <h1 className="text-2xl font-bold tracking-tight">
             {learningMod.title}
           </h1>
 
-          <p className="text-muted-foreground">{learningMod.description}</p>
+          <p className="text-sm text-muted-foreground">
+            {learningMod.description}
+          </p>
         </header>
 
         <Image
@@ -94,7 +96,11 @@ export default function ModulesPage({ params }: { params: { link: string } }) {
                               size={"sm"}
                               className="mb-4 mt-auto"
                             >
-                              <Link href={"#"}>Saber mas</Link>
+                              <Link
+                                href={section.subTopics[idx]?.subLink ?? "#"}
+                              >
+                                Saber mas
+                              </Link>
                             </Button>
                           </div>
                         </article>
