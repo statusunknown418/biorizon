@@ -10,18 +10,17 @@ export default function GalleryPage() {
           <h2>{galleryItem.topic}</h2>
 
           {galleryItem.links.map((link) => (
-            <iframe width="420" height="315" key={link} src={link}></iframe>
+            <iframe
+              width="560"
+              height="315"
+              key={link}
+              src={link}
+              title={galleryItem.topic}
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            />
           ))}
-
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/Ek9Cdl03HTA?si=MI67hy2a411eXkGH"
-            title="YouTube video player"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerPolicy="strict-origin-when-cross-origin"
-            allowFullScreen
-          ></iframe>
         </div>
       ))}
     </section>
