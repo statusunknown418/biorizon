@@ -12,9 +12,10 @@
   
   5. *Profundidad de Penetración*: Debido a su rango de frecuencia, puede penetrar hasta profundidades significativas, permitiendo visualizar órganos y estructuras más profundas en el abdomen.
 
-
-
-https://transductores.com/wp-content/uploads/2019/03/C5-2-MINDRAY.jpg
+<div align="center"> 
+  <img src="https://transductores.com/wp-content/uploads/2019/03/C5-2-MINDRAY.jpg" width="500" height="300" />
+  <p> Transduurctor C5-2 </p>
+</div>
 
 ### Aplicaciones Específicas
 
@@ -35,6 +36,13 @@ https://transductores.com/wp-content/uploads/2019/03/C5-2-MINDRAY.jpg
 
 4. **Urológicas**:
    - **Vejiga**: Evaluación de volumen residual postmiccional y detección de anomalías estructurales.
+
+
+<div align="center"> 
+  <img width="185" alt="image" src="https://github.com/statusunknown418/biorizon/assets/89549012/959bdb4a-9b05-41ea-beeb-ec4a2b7933d2" />
+  <p> Aplicaciones </p>
+</div>
+
 
 ### Beneficios del Transductor C5-2
 
