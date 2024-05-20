@@ -1,0 +1,59 @@
+
+## Ecógrafo Philips ClearVue 550: Componentes y Funcionamiento
+
+### ¿Qué es un ecógrafo?
+
+Un ecógrafo es un dispositivo médico que utiliza ondas de ultrasonido para crear imágenes del interior del cuerpo. Es una herramienta esencial en muchas áreas de la medicina, incluyendo obstetricia, cardiología, y radiología.
+
+### Componentes Principales del Philips ClearVue 550
+
+1. **Monitor**: Muestra las imágenes en tiempo real, permitiendo al profesional de la salud observar y analizar los órganos y tejidos internos del paciente.}
+2. **Panel de control**: Aquí se procesan las señales enviadas y recibidas por el transductor. Contiene el software y el hardware necesarios para convertir los ecos en imágenes visibles en la pantalla.
+3. **Sistema de Almacenamiento**: Guarda las imágenes y datos obtenidos durante los exámenes para su posterior revisión y análisis.
+4. **Transductor (Sonda)**: Es el componente que se coloca sobre la piel del paciente. Emite ondas de ultrasonido y recoge los ecos que rebotan de los tejidos internos. El ClearVue 550 ofrece una variedad de transductores especializados para diferentes tipos de exámenes.
+   
+<div align="center"> 
+  <img src="https://github.com/statusunknown418/biorizon/assets/89549012/8989979d-a6f3-4acd-9bb3-28ec5d590f4d" width="700" height="300" />
+  <p> Tipos de trasnductores para ecografía abdominal [1] </p>
+</div>
+
+5. **Teclado y Controles**: Permiten al usuario ajustar la configuración del ecógrafo, seleccionar diferentes modos de examen y capturar imágenes.
+
+
+<div align="center">
+  <img width="199" alt="philipas" src="https://github.com/statusunknown418/biorizon/assets/89549012/3714cff0-dd0e-419f-97b3-fb9a6980c866" />
+  <p>  </p>
+</div>
+
+
+### ¿Cómo Funciona?
+
+1. **Emisión de Ondas**: El transductor envía ondas de ultrasonido hacia el interior del cuerpo. Estas ondas son sonidos de alta frecuencia que no podemos escuchar.
+
+2. **Reflexión de Ondas**: Cuando las ondas de ultrasonido golpean los diferentes tejidos y órganos, se reflejan de regreso hacia el transductor. La cantidad y el tiempo que tardan en regresar varían según el tipo de tejido.
+
+3. **Recepción y Conversión**: El transductor recoge las ondas reflejadas y las envía a la unidad central. Aquí, un sofisticado software convierte estas ondas en imágenes detalladas de los tejidos internos.
+
+4. **Visualización en Tiempo Real**: Las imágenes procesadas se muestran en el monitor, permitiendo al médico ver y analizar los órganos y estructuras internas del cuerpo en tiempo real.
+
+5. **Ajustes y Análisis**: El usuario puede ajustar la imagen utilizando el teclado y los controles, cambiar la profundidad, el enfoque y otras configuraciones para obtener la mejor vista posible. Las imágenes se pueden guardar para un análisis posterior.
+
+
+### Beneficios del Philips ClearVue 550
+
+- **Imágenes Claras y Detalladas**: Gracias a su tecnología avanzada, ofrece imágenes de alta calidad que ayudan a los médicos a realizar diagnósticos precisos.
+
+<div align="center">
+  <img width="705" alt="DF" src="https://github.com/statusunknown418/biorizon/assets/89549012/4d90ea70-a7d3-48d5-96bf-f491e07da270" />
+  <p> Imágenes obtenidas con el ecógrafo [2]</p>
+</div>
+
+- **Facilidad de Uso**: Su diseño intuitivo y su interfaz amigable facilitan su uso, incluso para aquellos que no son expertos en tecnología.
+- **Versatilidad**: Adecuado para una amplia gama de aplicaciones médicas, desde exámenes obstétricos hasta estudios cardiológicos.
+
+---
+## Bibliografía
+[1] ClearVue 550 - Amt-abken.de, https://www.amt-abken.de/wp-content/uploads/2021/04/philips-clearvue-550-spezifikationen-englisch.pdf (accessed May 20, 2024). 
+
+[2] “Philips clearvue 550,” Philips, https://www.philips.com.pe/healthcare/product/HC795094/clearvue-550-ultrasound-machine (accessed May 20, 2024). 
+
