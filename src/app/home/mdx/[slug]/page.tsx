@@ -10,8 +10,8 @@ export default function Blog({ params }: { params: { slug: string } }) {
   }
 
   return (
-    <section>
-      <article className="prose prose-invert">
+    <section className="w-full">
+      <article className="prose prose-invert mx-auto max-w-5xl text-justify">
         <CustomMDX source={post.content} />
       </article>
     </section>

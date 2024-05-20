@@ -3,9 +3,9 @@ import { Header } from "~/components/pages/Header";
 import { Button } from "~/components/ui/button";
 import es from "~/locales/es.json";
 
-export default async function Home() {
+export default function Home() {
   return (
-    <>
+    <div>
       <Header />
 
       <main className="grid h-full w-full grid-cols-1 place-items-center">
@@ -73,6 +73,6 @@ export default async function Home() {
           </article>
         </section>
       </main>
-    </>
+    </div>
   );
 }

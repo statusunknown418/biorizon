@@ -4,6 +4,7 @@
  */
 await import("./src/env.js");
 import createMDX from "@next/mdx";
+import remarkGfm from "remark-gfm";
 
 /** @type {import("next").NextConfig} */
 const config = {
@@ -26,6 +27,10 @@ const config = {
   pageExtensions: ["md", "mdx", "tsx", "ts", "js", "jsx"],
 };
 
-const withMDX = createMDX({});
+const withMDX = createMDX({
+  options: {
+    remarkPlugins: [remarkGfm],
+  },
+});
 
 export default withMDX(config);
