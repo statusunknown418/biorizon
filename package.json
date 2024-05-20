@@ -4,13 +4,13 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "next build",
+    "build": "rm -rf ./coverage && next build",
     "db:push": "drizzle-kit push:sqlite",
     "db:studio": "drizzle-kit studio",
     "dev": "next dev",
     "lint": "next lint",
     "start": "next start",
-    "test": "jest",
+    "test": "jest --no-cache",
     "test:watch": "jest --watch"
   },
   "dependencies": {
