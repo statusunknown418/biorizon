@@ -34,7 +34,7 @@ export default async function HomePage() {
         {es.modules.map((module, idx) => (
           <article
             key={module.title}
-            className="flex h-full max-w-sm flex-col items-center justify-between gap-4 rounded-2xl border bg-muted pb-8"
+            className="flex h-full max-w-sm flex-col items-center justify-between gap-4 rounded-2xl border bg-muted/30 pb-8"
           >
             <Image
               src={module.image}

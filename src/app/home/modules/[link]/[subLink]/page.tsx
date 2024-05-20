@@ -8,8 +8,6 @@ export default function ModulesPage({
 }: {
   params: { subLink: string; link: string };
 }) {
-  console.log({ params });
-
   const learningMod = es.modules.find((mod) =>
     mod.topics.find((topic) =>
       topic.subTopics.find(
