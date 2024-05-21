@@ -4,8 +4,8 @@ import { BookmarkIcon, ImageIcon, Pencil1Icon } from "@radix-ui/react-icons";
 import Link from "next/link";
 import { useSelectedLayoutSegment } from "next/navigation";
 import { cn } from "~/lib/utils";
-import { UserDropdown } from "../UserDropdown";
 import es from "~/locales/es.json";
+import { UserDropdown } from "../UserDropdown";
 
 export const Sidebar = () => {
   const selectedSegment = useSelectedLayoutSegment();
@@ -24,11 +24,11 @@ export const Sidebar = () => {
           Módulos
         </Link>
 
-        <ul className="ml-7 flex flex-col gap-2">
+        <ul className="ml-7 flex flex-col justify-start gap-2">
           {es.modules.map((mod) => (
             <Link
-              href={mod.link}
               key={mod.title}
+              href={mod.link}
               className={cn(
                 "rounded-lg p-2 text-xs hover:bg-muted/50",
                 selectedSegment === mod.link

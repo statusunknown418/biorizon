@@ -2,12 +2,6 @@ import { ArrowLeftIcon, ArrowRightIcon } from "@radix-ui/react-icons";
 import Image from "next/image";
 import Link from "next/link";
 import { PiTriangle } from "react-icons/pi";
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "~/components/ui/accordion";
 import { Button } from "~/components/ui/button";
 import es from "~/locales/es.json";
 
@@ -56,63 +50,48 @@ export default function ModulesPage({ params }: { params: { link: string } }) {
         />
       </div>
 
-      <Accordion type="multiple">
-        <ul>
-          {learningMod.topics.map((section) => (
-            <AccordionItem key={section.title} value={section.title}>
-              <li key={section.title}>
-                <AccordionTrigger className="justify-start">
-                  <PiTriangle
-                    size={16}
-                    className="mr-2 rotate-90 text-muted-foreground"
-                  />
-                  <h2 className="text-lg font-medium">{section.title}</h2>
-                </AccordionTrigger>
+      <ul className="flex flex-col gap-6">
+        {learningMod.topics.map((section) => (
+          <li key={section.title}>
+            <div className="mb-4 flex items-center gap-2">
+              <PiTriangle
+                size={16}
+                className="mr-2 rotate-90 text-muted-foreground"
+              />
+              <h2 className="text-lg font-medium">{section.title}</h2>
+            </div>
 
-                <AccordionContent>
-                  <article className="flex flex-col gap-4">
-                    <div className="mb-4 flex justify-center gap-10">
-                      {section.images?.map((image, idx) => (
-                        <article
-                          key={image}
-                          className="flex gap-2 rounded-lg border"
-                        >
-                          <Image
-                            key={image}
-                            alt="module-resource"
-                            src={image}
-                            width={200}
-                            height={100}
-                            className="rounded-l-lg object-cover"
-                          />
+            <article className="flex flex-col gap-4">
+              <div className="mb-4 flex gap-10">
+                {section.images?.map((image, idx) => (
+                  <article key={image} className="flex gap-2 rounded-lg border">
+                    <Image
+                      key={image}
+                      alt="module-resource"
+                      src={image}
+                      width={200}
+                      height={100}
+                      className="rounded-l-lg object-cover"
+                    />
 
-                          <div className="flex flex-col gap-2 p-4">
-                            <p className="max-w-80 text-base font-medium">
-                              {section.subTopics[idx]?.title}
-                            </p>
+                    <div className="flex flex-col gap-2 p-4">
+                      <p className="max-w-80 text-base font-medium">
+                        {section.subTopics[idx]?.title}
+                      </p>
 
-                            <Button
-                              asChild
-                              size={"sm"}
-                              className="mb-4 mt-auto"
-                            >
-                              <Link
-                                href={section.subTopics[idx]?.subLink ?? "#"}
-                              >
-                                Saber mas
-                              </Link>
-                            </Button>
-                          </div>
-                        </article>
-                      ))}
+                      <Button asChild size={"sm"} className="mb-4 mt-auto">
+                        <Link href={section.subTopics[idx]?.subLink ?? "#"}>
+                          Saber mas
+                        </Link>
+                      </Button>
                     </div>
                   </article>
-                </AccordionContent>
-              </li>
-            </AccordionItem>
-          ))}
-        </ul>
-      </Accordion>
+                ))}
+              </div>
+            </article>
+          </li>
+        ))}
+      </ul>
 
       {!!learningMod.quizLInk && (
         <div className="flex flex-col rounded-xl border-l-4 border-green-500 bg-green-950 p-3 pl-6">
