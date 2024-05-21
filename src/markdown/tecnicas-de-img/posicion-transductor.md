@@ -1,19 +1,10 @@
 # Posiciones y Movimientos para la obtención de imágenes en Ecografía Abdominal Pediátrica
 
-<p La calidad de las imágenes en la ecografía abdominal pediátrica depende en gran medida de las posiciones y movimientos adecuados del transductor. A continuación, se detallan las técnicas de posicionamiento del transductor y los movimientos básicos necesarios para obtener imágenes óptimas, con un enfoque en la ergonomía y el confort del paciente pediátrico.
-
-## Técnicas de Posicionamiento del Transductor
-
-1. **Ergonomía**: Es crucial colocar al paciente en una posición cómoda y segura para evitar movimientos no deseados durante la exploración. Se debe prestar especial atención a la posición de los brazos y las piernas para garantizar un acceso óptimo al área abdominal.
-
-2. **Transductor Lineal**:
-   - **Hígado y Riñones**: Colocar el transductor en posición longitudinal o transversal sobre el área de interés, manteniendo contacto directo con la piel para evitar artefactos de imagen.
-
-3. **Transductor Convexo**:
-   - **Estómago e Intestinos**: Utilizar una técnica de exploración en abanico, deslizando suavemente el transductor sobre el abdomen en movimientos circulares para visualizar diferentes áreas de interés.
-
-4. **Transductor Endocavitario** (en casos específicos):
-   - **Vejiga**: Colocar el transductor dentro de una cubierta estéril y lubricada, insertándolo suavemente en la vagina o el recto del paciente para obtener imágenes de la vejiga y las estructuras adyacentes.
+<p align="justify"> La calidad de las imágenes en la ecografía abdominal pediátrica depende en gran medida de las posiciones y movimientos adecuados del transductor. A continuación, se detallan las técnicas de posicionamiento del transductor y los movimientos básicos necesarios para obtener imágenes óptimas, con un enfoque en la ergonomía y el confort del paciente pediátrico.
+   
+<p align="center">
+  <img src="https://www.chkd.org/patients-and-families/health-library/GetImage.aspx?ImageId=494060" width="300" height="300"> </p>
+<em><p align="center">Las líneas de puntos muestran las zonas que pueden verse afectadas por la atresia biliar.</p></em> 
 
 ## Movimientos Básicos del Transductor
 
@@ -26,7 +17,9 @@
 3. **Angulación**:
    - Inclinar ligeramente el transductor hacia arriba o hacia abajo para modificar el ángulo de incidencia del haz ultrasónico y visualizar mejor estructuras profundas o superficiales, como el diafragma o la vejiga.
 
-
+https://www.youtube.com/watch?v=LQdlbtHSiJ4
+https://www.youtube.com/watch?v=QqhosgKRNMk
+https://www.youtube.com/watch?v=lsDVzWu_UdQ
 ---
 ## Bibliografía
 
