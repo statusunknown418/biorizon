@@ -5,10 +5,7 @@
   1. *Rango de Frecuencia*: El transductor C5-2 opera en un rango de frecuencia de 2 a 5 MHz. Esto le permite proporcionar una buena resolución y penetración, adecuada para imágenes abdominales y obstétricas.
 
   2. *Tipo de Transductor*: Es un transductor convexo (también conocido como curvo), lo que significa que tiene una superficie de contacto curva. Esta forma es ideal para estudios abdominales y obstétricos, ya que se adapta mejor a la forma del cuerpo.
-
-  3. *Número de Elementos*: Generalmente, este tipo de transductor tiene entre 128 y 256 elementos piezoeléctricos, que son los que emiten y reciben las ondas de ultrasonido.
-
-  4. *Campo de Visión*: Tiene un amplio campo de visión, lo que permite obtener imágenes de grandes áreas del abdomen y el útero.
+  3. *Campo de Visión*: Tiene un amplio campo de visión, lo que permite obtener imágenes de grandes áreas del abdomen y el útero.
   
   5. *Profundidad de Penetración*: Debido a su rango de frecuencia, puede penetrar hasta profundidades significativas, permitiendo visualizar órganos y estructuras más profundas en el abdomen.
 
@@ -51,8 +48,7 @@
 - **Profundidad de Penetración**: Permite visualizar estructuras profundas con claridad, esencial para diagnósticos precisos.
 - **Ergonomía**: Su diseño convexo facilita la obtención de imágenes en áreas difíciles de alcanzar, mejorando la comodidad tanto del paciente como del operador.
 
-El transductor C5-2 es una pieza clave del ecógrafo Philips ClearVue 550, ofreciendo la capacidad de realizar exámenes diagnósticos precisos y detallados en una variedad de aplicaciones clínicas.
-
 ---
+## Bibliografía
 
-Si necesitas más información o detalles adicionales, no dudes en preguntar.
+[1] “Philips C5-2 clearvue,” Transductores para ultrasonido cualquier marca y modelo, https://transductores.com/producto/philips-c5-2-clearvue/ (accessed May 20, 2024). 
