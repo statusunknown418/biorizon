@@ -3,13 +3,15 @@ import es from "~/locales/es.json";
 export default function GalleryPage() {
   return (
     <section className="mx-auto flex max-w-5xl flex-col gap-8">
-      <h1 className="text-2xl font-bold">
+      <h1 className="text-3xl font-bold">
         Galería de imágenes y videos explicativos
       </h1>
 
       {es.gallery.map((galleryItem, idx) => (
         <div key={idx} className="flex flex-col gap-4 text-muted-foreground">
-          <h2 className="text-xl">{galleryItem.topic}</h2>
+          <h2 className="text-lg font-bold underline underline-offset-2">
+            {galleryItem.topic}
+          </h2>
 
           <section className="grid grid-cols-2 gap-5">
             {galleryItem.links.map((link) => (

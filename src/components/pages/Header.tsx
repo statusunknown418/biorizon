@@ -30,16 +30,16 @@ export const Header = ({ className }: { className?: string }) => {
 
         <div className="flex items-center gap-4">
           <Button asChild variant={"ghost"}>
-            <Link href={"/home/gallery"}>Galeria</Link>
-          </Button>
-
-          {/* <Button asChild variant={"ghost"}>
-            <Link href={"/about-us"}>Nosotros</Link>
+            <Link href={"/home"}>Aprendizaje</Link>
           </Button>
 
           <Button asChild variant={"ghost"}>
-            <Link href={"/support"}>Soporte</Link>
-          </Button> */}
+            <Link href={"/home/gallery"}>Galeria</Link>
+          </Button>
+
+          <Button asChild variant={"ghost"}>
+            <Link href={"/home/quizzes"}>Quizzes</Link>
+          </Button>
 
           {!data?.user.email && (
             <Button
