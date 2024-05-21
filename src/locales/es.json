@@ -279,7 +279,7 @@
       "topics": [
         {
           "title": "Ecografía hepática",
-          "images": ["/3.1-1.png"],
+          "images": ["/3.1-1.png", "/3.1-2.png"],
           "subTopics": [
             {
               "title": "Identificación de estructuras normales y variantes anatómicas",
@@ -321,7 +321,7 @@
         },
         {
           "title": "Ecografía de la vesícula biliar y vías biliares",
-          "images": ["/3.2-1.png"],
+          "images": ["/3.2-1.png", "/3.2-2.png"],
           "subTopics": [
             {
               "title": "Técnicas específicas para la visualización de la vesícula y vías biliares",
@@ -372,7 +372,7 @@
       "topics": [
         {
           "title": "Patologías Hepáticas Comunes en Pediatría",
-          "images": ["/4.1-1.png"],
+          "images": ["/4.1-1.png", "/4.1-2.png"],
           "subTopics": [
             {
               "title": "Hepatitis aguda y crónica",
@@ -414,7 +414,7 @@
         },
         {
           "title": "Patologías de la Vesícula Biliar y Vías Biliares en Pediatría",
-          "images": ["/4.2-1.png"],
+          "images": ["/4.2-1.png", "/4.2-2.png"],
           "subTopics": [
             {
               "title": "Colelitiasis y colecistitis",
@@ -440,11 +440,11 @@
               "contents": [
                 {
                   "description": "Diagnóstico en neonatos y lactantes: La atresia biliar es una enfermedad grave caracterizada por la obstrucción progresiva de las vías biliares. La ecografía puede mostrar una vesícula biliar pequeña o ausente, vías biliares no visualizables y signos de fibrosis hepática.",
-                  "image": "https://picsum.photos/400/200"
+                  "image": "/4.2-1.3.png"
                 },
                 {
                   "description": "Implicaciones del diagnóstico y opciones de tratamiento: Un diagnóstico temprano es vital y puede implicar la necesidad de cirugía, como la portoenterostomía de Kasai, para restaurar el flujo biliar y prevenir daños hepáticos.",
-                  "image": ""
+                  "image": null
                 }
               ]
             }
