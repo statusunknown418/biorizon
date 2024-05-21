@@ -1,65 +1,88 @@
-# Esteatosis hepática (hígado graso)
+# Esteatosis Hepática Infantil (Hígado Graso)
 
-La esteatosis hepática, también conocida como hígado graso, es una condición común en la que se acumulan cantidades excesivas de grasa en las células hepáticas. Esta acumulación puede interferir con la función normal del hígado y puede progresar a condiciones más graves si no se maneja adecuadamente.
+<p align="justify"> La esteatosis hepática infantil se caracteriza por la acumulación excesiva de grasa en las células hepáticas (hepatocitos). Esta condición puede ser asintomática o causar síntomas como fatiga, malestar abdominal y hepatomegalia (aumento del tamaño del hígado). Existen dos tipos principales:
+- **Esteatosis Hepática Simple**: Acumulación de grasa sin inflamación significativa ni daño hepático.
+- **Esteatohepatitis No Alcohólica (NASH)**: Acumulación de grasa acompañada de inflamación y daño celular, que puede progresar a fibrosis, cirrosis y, en casos severos, cáncer hepático.
+  
+<p align="center">
+  <img src="https://github.com/statusunknown418/biorizon/assets/89549012/3747ee3e-a123-4eab-97ea-d8edfb8e0716" width="500" height="300"> </p>
+<em><p align="center">Esteatosis Hepática</p></em> 
 
-La esteatosis hepática se caracteriza por la acumulación de triglicéridos en los hepatocitos. Esta condición puede ser benigna en su forma inicial, pero puede progresar a esteatohepatitis (inflamación del hígado), fibrosis y, en casos severos, cirrosis y cáncer hepático.
 
-#### Causas
+## Factores de Riesgo
 
-La esteatosis hepática puede ser causada por diversos factores, tanto metabólicos como no metabólicos:
+1. **Obesidad**: Mayor índice de masa corporal (IMC) está estrechamente relacionado con el hígado graso.
+2. **Diabetes Tipo 2**: La resistencia a la insulina es un factor de riesgo significativo.
+3. **Dislipidemia**: Niveles elevados de colesterol y triglicéridos.
+4. **Síndrome Metabólico**: Conjunto de condiciones que incluyen obesidad central, hipertensión y alteraciones en los niveles de glucosa y lípidos.
+5. **Historial Familiar**: Antecedentes de hígado graso o enfermedades hepáticas en la familia.
 
-1. **Consumo excesivo de alcohol**: Es una de las principales causas y se conoce como esteatosis hepática alcohólica.
-2. **Síndrome metabólico**: Incluye condiciones como obesidad, diabetes tipo 2, hipertrigliceridemia e hipertensión.
-3. **Medicamentos**: Algunos medicamentos, como corticosteroides y tamoxifeno, pueden causar hígado graso.
-4. **Desnutrición**: Deficiencias nutricionales y pérdida rápida de peso.
-5. **Enfermedades metabólicas hereditarias**: Como la enfermedad de Wilson y la galactosemia.
+<p align="center">
+  <img src="https://st2.depositphotos.com/1985863/7352/v/450/depositphotos_73524893-stock-illustration-overweight-man-eating-pizza.jpg" width="400" height="300"> </p>
+<em><p align="center">Obesidad y sedentarismo by Depositphotos </p></em> 
 
-#### Factores de Riesgo
 
-Los principales factores de riesgo para desarrollar esteatosis hepática incluyen:
+## Diagnóstico por Ecografía
 
-1. **Obesidad**: Especialmente con una distribución central de grasa.
-2. **Diabetes Mellitus tipo 2**: Resistencia a la insulina.
-3. **Dislipidemia**: Niveles elevados de triglicéridos y colesterol LDL.
-4. **Hipertensión arterial**: Contribuye al síndrome metabólico.
-5. **Sedentarismo**: Falta de actividad física regular.
-6. **Dieta alta en grasas y azúcares**: Especialmente fructosa.
+La ecografía es una herramienta esencial para el diagnóstico de la esteatosis hepática infantil debido a su accesibilidad, seguridad y costo-efectividad.
 
-#### Diagnóstico por Ecografía
+1. **Preparación del Paciente**: Se recomienda el ayuno de 4-6 horas para mejorar la visualización del hígado.
+2. **Técnica**:
+   - **Transductor**: Uso de un transductor de alta frecuencia para obtener imágenes detalladas.
+   - **Planos de Corte**: Obtención de imágenes en planos longitudinal, transversal y oblicuo para una evaluación completa del hígado.
+3. **Hallazgos Ecográficos**:
+   - **Ecogenicidad Aumentada**: El hígado graso se caracteriza por una mayor ecogenicidad (brillo) en comparación con el riñón derecho.
+   - **Atenuación del Haz Ultrasónico**: Disminución de la visualización de las estructuras profundas del hígado debido a la presencia de grasa.
+   - **Dificultad para Visualizar Vasos Intrahepáticos**: La grasa puede hacer que los vasos hepáticos sean menos visibles.
 
-La ecografía es una herramienta de diagnóstico crucial para la detección de la esteatosis hepática. Es no invasiva, accesible y económica.
+   La característica ecográfica fundamental de la infiltración grasa es el hígado hiperecoico llamado "hígado brillante", igualando o superando la ecogenicidad del parénquima pancreático. Este aumento de ecogenicidad por la infiltración grasa provoca atenuación sónica posterior, que dificulta la valoración de las partes más profundas del hígado
 
-1. **Técnicas de Ecografía**:
-   - **Ecogenicidad Aumentada**: El hígado graso aparece hiperecogénico (más brillante) en comparación con el riñón y el bazo debido a la infiltración de grasa.
-   - **Atenuación del Haz Ultrasónico**: Disminución de la penetración del sonido, haciendo que las estructuras más profundas sean menos visibles.
-   - **Visibilidad de Vasos Intrahepáticos**: Los vasos se ven menos claramente debido al aumento de la ecogenicidad del parénquima hepático.
+   En función de estas características se distinguen tres grados:
+   
+   **Tipo I: Leve**. Discreto aumento difuso de la ecogenicidad, con normal valoración del diafragma y de los bordes de los vasos intrahepáticos.
 
-2. **Evaluación**:
-   - **Grado de Esteatosis**: Se clasifica generalmente en leve, moderada y severa basada en la ecogenicidad relativa y la visibilidad de las estructuras intrahepáticas.
+   **Tipo II: Moderada***. Moderado aumento difuso de la ecogenicidad, con dificultad para la valoración del diafragma y vasos intrahepáticos. Hígado brillante con escasa visualización de vasos intrahepáticos.
 
-#### Manejo Clínico
+   <p align="center">
+     <img src="https://github.com/statusunknown418/biorizon/assets/89549012/93da4820-3b94-4e21-9795-ca1a359f1878" width="400" height="300"> </p>
+   <em><p align="center">Grado II</p></em> 
 
-El manejo de la esteatosis hepática implica cambios en el estilo de vida y, en algunos casos, tratamiento farmacológico.
+   **Tipo III: Grave**. Marcado aumento de la ecogenicidad, con escasa o nula visualización de las paredes de los vasos intrahepáticos, del diafragma y de la porción posterior del LHD, debido a la pobre penetración de los ultrasonidos
+   
+   <p align="center">
+     <img src="https://github.com/statusunknown418/biorizon/assets/89549012/e5e88a16-ea9f-40ea-9bcd-2848453eff51" width="400" height="300"> </p>
+   <em><p align="center">Grado III</p></em> 
 
-1. **Modificaciones en el Estilo de Vida**:
-   - **Pérdida de Peso**: A través de una dieta balanceada y ejercicio regular. La reducción de peso del 5-10% puede mejorar significativamente la esteatosis.
-   - **Dieta Saludable**: Baja en grasas saturadas, azúcares refinados y rica en fibra.
-   - **Ejercicio Físico**: Al menos 150 minutos de ejercicio moderado a la semana.
+   ### Parénquima Hepático en la Esteatosis: Presentaciones y Evaluación
 
-2. **Tratamiento Farmacológico**:
-   - **Agentes Sensibilizadores a la Insulina**: Como la metformina y los tiazolidinedionas.
-   - **Antioxidantes**: Vitamina E en pacientes no diabéticos.
-   - **Ácidos Grasos Omega-3**: Pueden ser beneficiosos para la dislipidemia asociada.
+   La esteatosis hepática puede afectar el parénquima hepático de las siguientes maneras:
 
-3. **Monitoreo y Seguimiento**:
-   - **Evaluaciones Regulares**: Monitoreo de los niveles de enzimas hepáticas y ecografías periódicas para evaluar la progresión de la enfermedad.
-   - **Control de Comorbilidades**: Manejo adecuado de diabetes, dislipidemia e hipertensión.
+   - #### Patrón Difuso
+     Abarca todo el parénquima hepático, aunque es común observar áreas hipoecoicas dentro de este patrón, las cuales representan "zonas de parénquima normal" con límites bien definidos. Estas áreas parecen continuarse con el parénquima graso y no muestran efecto de masa, siendo frecuentemente localizadas en el hilio hepático o cerca de la vesícula biliar.
+
+   - #### Patrón Focal
+     Consiste en regiones con ecogenicidad aumentada en un fondo de parénquima normal. Este patrón es común, especialmente en el lóbulo hepático derecho (LHD). Es fácil de diagnosticar y diferenciar de una lesión ocupante de espacio (LOE) debido a la ausencia de efecto de masa: no desplaza ni comprime los vasos hepáticos, no altera el contorno del hígado y suele presentar márgenes geográficos.
+
+   #### Evaluación del Grado de Infiltración Grasa
+
+   Para determinar el grado de infiltración grasa, se utiliza la escala de medición propuesta por D. F. Chan, et al., que clasifica la esteatosis hepática en 3 grados:
+   - **Grado 0 (Hígado Normal)**: 0 puntos
+   - **Grado 1 (Esteatosis Hepática Leve)**: 1 a 3 puntos
+   - **Grado 2 (Esteatosis Hepática Moderada)**: 4 a 6 puntos
+   - **Grado 3 (Esteatosis Hepática Grave)**: 7 a 9 puntos
+
+   <p align="center">
+     <img src="https://www.redalyc.org/journal/5645/564564530004/2529-850X-jonnpr-5-04-392-gt2.png" width="400" height="500"> </p>
+   <em><p align="center">Escala de evaluación del hígado graso</p></em> 
      
+
 ---
 ## Bibliografía
 
-- A. J. Sanyal, "Aga technical review on nonalcoholic fatty liver disease," *Gastroenterology*, vol. 123, no. 5, pp. 1705-1725, Nov. 2002.
-- J. R. Polyzos, G. Goulas, D. Kountouras, "Nonalcoholic fatty liver disease: multimodal treatment options," *Clinical Liver Disease*, vol. 24, no. 4, pp. 813-830, Dec. 2020.
-- D. Y. Setiawan, "Liver ultrasound elastography: An update and future directions," *World Journal of Gastroenterology*, vol. 24, no. 26, pp. 3046-3054, Jul. 2018.
+- S. Vajro, C. Lenta, "Diagnosis of nonalcoholic fatty liver disease in children and adolescents: Position paper of the ESPGHAN Hepatology Committee," *Journal of Pediatric Gastroenterology and Nutrition*, vol. 54, no. 5, pp. 700-713, May 2012.
+- N. A. Vos, A. J. Kucera, "Pediatric nonalcoholic fatty liver disease: A comprehensive review," *Advances in Pediatrics*, vol. 60, no. 1, pp. 85-107, Aug. 2013.
+- L. S. Fishbein, G. Miner, "Ultrasound diagnosis of pediatric nonalcoholic fatty liver disease," *Pediatric Radiology*, vol. 45, no. 10, pp. 1356-1366, Oct. 2015.
+- “¿Qué es el hígado graso?”, Rochepacientes.es. [En línea]. Disponible en: https://rochepacientes.es/cancer/higado/que-es-higado-graso.html.
+- “Síntomas y causas de la EHGNA y la EHNA en niños”, National Institute of Diabetes and Digestive and Kidney Diseases. [En línea]. Disponible en: https://www.niddk.nih.gov/health-information/informacion-de-la-salud/enfermedades-higado/nafld-nash-ninos/sintomas-causas
+- Redalyc.org. "La ecografía, técnica diagnóstica en esteatosis hepática no alcohólica" [En línea]. Disponible en: https://www.redalyc.org/journal/5645/564564530004/html/.
 
-La comprensión adecuada de la esteatosis hepática, desde su diagnóstico hasta su manejo clínico, es esencial para prevenir complicaciones graves y mejorar la calidad de vida de los pacientes. La ecografía juega un papel central en la detección temprana y seguimiento de esta condición.
