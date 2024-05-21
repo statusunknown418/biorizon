@@ -57,13 +57,15 @@ export default function ModulesPage({
             {idx + 1}. {content.description}
           </p>
 
-          <Image
-            src={content.image}
-            width={400}
-            height={200}
-            className="self-center rounded-lg"
-            alt="module-main-resource"
-          />
+          {!!content.image && (
+            <Image
+              src={content.image}
+              width={400}
+              height={200}
+              className="self-center rounded-lg"
+              alt="module-main-resource"
+            />
+          )}
         </div>
       ))}
     </section>

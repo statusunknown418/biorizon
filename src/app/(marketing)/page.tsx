@@ -1,6 +1,5 @@
 import Image from "next/image";
 import { Header } from "~/components/pages/Header";
-import { Button } from "~/components/ui/button";
 import es from "~/locales/es.json";
 
 export default function Home() {
@@ -21,8 +20,6 @@ export default function Home() {
               </p>
 
               <p className="text-sky-900">{es.landingPage.description}</p>
-
-              <Button>{es.landingPage.actionButton}</Button>
             </div>
 
             <Image

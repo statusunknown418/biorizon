@@ -77,15 +77,15 @@
               "contents": [
                 {
                   "description": "Definición y tipos de ondas ultrasónicas: Las ondas de ultrasonido son vibraciones acústicas que se utilizan en la medicina para visualizar estructuras internas del cuerpo. Estas ondas son inaudibles al oído humano y se producen aplicando corriente eléctrica a cristales piezoeléctricos dentro del transductor.",
-                  "image": "https://picsum.photos/400/200"
+                  "image": "1.1-1.1.jpg"
                 },
                 {
                   "description": "Generación y recepción de ondas ultrasónicas: El transductor actúa como emisor y receptor de ondas ultrasónicas. Al contactar con el cuerpo, las ondas ultrasónicas se transmiten a través de los tejidos y se reflejan de vuelta al transductor, que las convierte en imágenes visuales.",
-                  "image": "https://picsum.photos/400/200"
+                  "image": "1.1-1.2.png"
                 },
                 {
                   "description": "Referencia: 'Diagnostic Ultrasound' por Carol M. Rumack. Este libro es un recurso esencial para entender los principios físicos y las aplicaciones clínicas del ultrasonido.",
-                  "image": "https://picsum.photos/400/200"
+                  "image": null
                 }
               ]
             },
@@ -95,15 +95,15 @@
               "contents": [
                 {
                   "description": "Absorción, reflexión y refracción: La calidad de la imagen ultrasónica depende de cómo las ondas son absorbidas, reflejadas o refractadas por los tejidos. Los tejidos densos como el hueso reflejan más ondas, produciendo una imagen más brillante, mientras que los fluidos aparecen oscuros.",
-                  "image": "https://picsum.photos/400/200"
+                  "image": "/1.1-1.3.png"
                 },
                 {
                   "description": "Impacto en la calidad de imagen: La comprensión de estas interacciones es crucial para ajustar el ultrasonido y obtener imágenes claras y detalladas, lo cual es especialmente importante en estructuras complejas como el abdomen pediátrico.",
-                  "image": "https://picsum.photos/400/200"
+                  "image": "/1.1-1.4.png"
                 },
                 {
                   "description": "Referencia: 'Ultrasound: The Requisites' por William D. Middleton. Este libro ofrece explicaciones detalladas sobre cómo el ultrasonido interactúa con diferentes tejidos y cómo esta interacción afecta la interpretación de las imágenes.",
-                  "image": "https://picsum.photos/400/200"
+                  "image": null
                 }
               ]
             }
@@ -119,15 +119,15 @@
               "contents": [
                 {
                   "description": "Descripción de los componentes: El ClearVue 550 incluye un monitor de alta resolución, una consola con controles interactivos, y puertos para conectar varios transductores. Cada componente está diseñado para facilitar la operación y mejorar la experiencia del usuario.",
-                  "image": "https://picsum.photos/400/200"
+                  "image": "/1.2-1.1.png"
                 },
                 {
                   "description": "Operación básica: Aprender a manejar el ClearVue 550 implica comprender cómo iniciar el dispositivo, seleccionar el tipo correcto de transductor y ajustar los parámetros de imagen, como la profundidad de escaneo y la frecuencia.",
-                  "image": "https://picsum.photos/400/200"
+                  "image": null
                 },
                 {
                   "description": "Referencia: Manual del usuario del Phillips ClearVue 550. Este manual proporciona instrucciones detalladas sobre cómo operar el ecógrafo de manera eficiente y segura.",
-                  "image": "https://picsum.photos/400/200"
+                  "image": null
                 }
               ]
             },
@@ -137,15 +137,15 @@
               "contents": [
                 {
                   "description": "Configuración de imagen: Profundizar en cómo configurar la imagen para diferentes exámenes, con ejemplos específicos de ajustes para estudios abdominales en niños, lo que implica ajustes finos debido a su menor tamaño y la sensibilidad de sus órganos.",
-                  "image": "https://picsum.photos/400/200"
+                  "image": "/1.2-1.2.png"
                 },
                 {
                   "description": "Personalización para pediatría: Enfatizar la importancia de personalizar los ajustes para pacientes pediátricos, incluyendo consejos sobre cómo reducir la exposición al ultrasonido sin comprometer la calidad de la imagen.",
-                  "image": "https://picsum.photos/400/200"
+                  "image": null
                 },
                 {
                   "description": "Referencia: 'Sonography: Introduction to Normal Structure and Function' por Reva Arnez Curry. Este libro detalla técnicas para optimizar imágenes ultrasónicas y es especialmente útil para sonografistas que trabajan con poblaciones pediátricas.",
-                  "image": "https://picsum.photos/400/200"
+                  "image": null
                 }
               ]
             }
@@ -161,15 +161,15 @@
               "contents": [
                 {
                   "description": "Especificaciones del transductor: El C5-2 es un transductor curvo que opera entre 2 y 5 MHz, ideal para imágenes abdominales debido a su capacidad de penetrar profundamente en los tejidos mientras proporciona imágenes claras.",
-                  "image": "https://picsum.photos/400/200"
+                  "image": "/1.3-1.1.png"
                 },
                 {
                   "description": "Uso clínico: El transductor es ampliamente utilizado para exámenes abdominales, capaz de visualizar órganos como el hígado, la vesícula y los riñones en niños, adaptándose a las particularidades de su anatomía.",
-                  "image": "https://picsum.photos/400/200"
+                  "image": null
                 },
                 {
                   "description": "Referencia: Hoja de datos del transductor C5-2 de Philips. Documento técnico que ofrece detalles específicos sobre el transductor, incluyendo su aplicación clínica y recomendaciones de uso.",
-                  "image": "https://picsum.photos/400/200"
+                  "image": null
                 }
               ]
             },
@@ -179,15 +179,15 @@
               "contents": [
                 {
                   "description": "Limpieza y desinfección: Detallar los procedimientos para limpiar y desinfectar el transductor siguiendo las directrices de la AIUM, que son cruciales para prevenir infecciones cruzadas en un entorno clínico.",
-                  "image": "https://picsum.photos/400/200"
+                  "image": "/1.3-1.2.png"
                 },
                 {
                   "description": "Almacenamiento adecuado: Consejos sobre cómo almacenar correctamente el transductor para evitar daños físicos y mantener su funcionalidad y precisión a largo plazo.",
-                  "image": "https://picsum.photos/400/200"
+                  "image": null
                 },
                 {
                   "description": "Referencia: 'Guidelines for Cleaning and Preparing External- and Internal-Use Ultrasound Probes Between Patients & Safe Handling and Use of Ultrasound Coupling Gel' por la AIUM. Estas directrices son esenciales para el cuidado adecuado de los equipos de ultrasonido.",
-                  "image": "https://picsum.photos/400/200"
+                  "image": null
                 }
               ]
             }
@@ -212,15 +212,15 @@
               "contents": [
                 {
                   "description": "Técnicas de posicionamiento del transductor: Explicación detallada de cómo posicionar el transductor para diferentes órganos abdominales, con énfasis en la ergonomía y la obtención de la mejor imagen posible sin causar incomodidad al paciente pediátrico.",
-                  "image": "https://picsum.photos/400/200"
+                  "image": "/2.1-1.1.png"
                 },
                 {
                   "description": "Movimientos básicos del transductor: Descripción de los movimientos esenciales como deslizamiento, rotación y angulación, que son clave para explorar diferentes planos y obtener imágenes completas del abdomen.",
-                  "image": "https://picsum.photos/400/200"
+                  "image": "/2.1-1.2.png"
                 },
                 {
                   "description": "Referencia: 'Textbook of Diagnostic Sonography' por Sandra L. Hagen-Ansert. Este libro es una guía completa sobre técnicas de sonografía, incluyendo consejos prácticos para el manejo del transductor.",
-                  "image": "https://picsum.photos/400/200"
+                  "image": null
                 }
               ]
             },
@@ -230,15 +230,15 @@
               "contents": [
                 {
                   "description": "Técnicas de distracción y confort: Métodos para mantener a los niños tranquilos y cooperativos durante los procedimientos de ultrasonido, como el uso de juguetes o programas de video.",
-                  "image": "https://picsum.photos/400/200"
+                  "image": null
                 },
                 {
                   "description": "Ajuste de la técnica según la edad y el tamaño del niño: Personalización de la técnica de ultrasonido para adaptarse a las características específicas de cada rango de edad pediátrica, asegurando un procedimiento suave y eficiente.",
-                  "image": "https://picsum.photos/400/200"
+                  "image": "/2.1-1.3.png"
                 },
                 {
                   "description": "Referencia: 'Pediatric Sonography' por Marilyn J. Siegel. Este libro proporciona orientación específica sobre cómo realizar ecografías en pacientes pediátricos, considerando sus necesidades únicas y cómo adaptar las técnicas de imagen.",
-                  "image": "https://picsum.photos/400/200"
+                  "image": null
                 }
               ]
             }
@@ -253,16 +253,16 @@
               "subLink": "/home/modules/tecnicas-imagen/preparacion-paciente",
               "contents": [
                 {
-                  "description": "",
-                  "image": "https://picsum.photos/400/200"
+                  "description": "Instrucciones pre-procedimiento: Directrices sobre cómo preparar a los niños para una ecografía abdominal, incluyendo la gestión de la ingesta de alimentos y líquidos.",
+                  "image": null
                 },
                 {
-                  "description": "",
-                  "image": "https://picsum.photos/400/200"
+                  "description": "Importancia de la preparación adecuada: Discusión sobre cómo una buena preparación puede afectar significativamente la calidad de las imágenes y la eficacia del diagnóstico.",
+                  "image": "/2.1-1.4.png"
                 },
                 {
-                  "description": "",
-                  "image": "https://picsum.photos/400/200"
+                  "description": "Referencia: 'Clinical Ultrasound: A Pocket Manual' por Peter R. Hoskins. Este manual ofrece orientación sobre la preparación del paciente para diferentes tipos de estudios de ultrasonido, asegurando que los técnicos estén bien informados sobre cómo maximizar la efectividad del examen.",
+                  "image": null
                 }
               ]
             }
@@ -287,15 +287,15 @@
               "contents": [
                 {
                   "description": "Anatomía hepática básica: Explicación exhaustiva de la anatomía del hígado, incluyendo detalles sobre los segmentos hepáticos, la vasculatura (arterias hepáticas, venas portal y hepáticas) y la importancia de identificar estructuras como la vena cava inferior y la vena porta en el contexto pediátrico.",
-                  "image": "https://picsum.photos/400/200"
+                  "image": "/3.1-1.1.png"
                 },
                 {
                   "description": "Variantes anatómicas: Discusión sobre las variantes anatómicas frecuentes como el lóbulo de Riedel o la presencia de un ligamento venoso prominente, y cómo estas pueden impactar en la interpretación ecográfica.",
-                  "image": "https://picsum.photos/400/200"
+                  "image": "/3.1-1.2.png"
                 },
                 {
                   "description": "Referencia: 'Hepatology: A Textbook of Liver Disease' por David Zakim. Este texto ofrece una guía detallada sobre la anatomía hepática y su función, proporcionando un contexto esencial para entender las variaciones normales y patológicas.",
-                  "image": "https://picsum.photos/400/200"
+                  "image": null
                 }
               ]
             },
@@ -305,15 +305,15 @@
               "contents": [
                 {
                   "description": "Patologías frecuentes: Discusión detallada sobre enfermedades hepáticas pediátricas como la hepatitis autoinmune, enfermedad de Wilson, y enfermedades metabólicas hereditarias que afectan el hígado.",
-                  "image": "https://picsum.photos/400/200"
+                  "image": null
                 },
                 {
                   "description": "Interpretación de hallazgos: Métodos para identificar características específicas de enfermedades como textura heterogénea del hígado, cambios en la ecogenicidad, y la presencia de nodulaciones o cicatrices.",
-                  "image": "https://picsum.photos/400/200"
+                  "image": "/3.1-1.3.png"
                 },
                 {
                   "description": "Referencia: 'Pediatric Gastrointestinal and Liver Disease' por Robert Wyllie. Proporciona información comprensiva sobre las enfermedades hepáticas en niños, con enfoque en el diagnóstico y manejo utilizando ecografía.",
-                  "image": "https://picsum.photos/400/200"
+                  "image": null
                 }
               ]
             }
@@ -329,15 +329,15 @@
               "contents": [
                 {
                   "description": "Protocolos de escaneo: Detalles sobre la técnica de escaneo para visualizar la vesícula biliar y vías biliares, incluyendo los ajustes específicos de profundidad y frecuencia del transductor para capturar imágenes claras de estas estructuras pequeñas.",
-                  "image": "https://picsum.photos/400/200"
+                  "image": null
                 },
                 {
                   "description": "Importancia de la preparación del paciente: Exploración de cómo un ayuno adecuado puede mejorar significativamente la visualización de la vesícula biliar, haciendo que esté distendida y libre de contenido que podría obscurecer la visualización de cálculos o polipos.",
-                  "image": "https://picsum.photos/400/200"
+                  "image": "/3.2-1.1.png"
                 },
                 {
                   "description": "Referencia: 'Diagnostic Ultrasound' por Carol M. Rumack. Ofrece orientaciones detalladas para la correcta visualización ecográfica de la vesícula y vías biliares, con protocolos específicos para diferentes escenarios clínicos.",
-                  "image": "https://picsum.photos/400/200"
+                  "image": null
                 }
               ]
             },
@@ -347,15 +347,15 @@
               "contents": [
                 {
                   "description": "Identificación de signos ecográficos: Ampliación sobre cómo detectar signos de colelitiasis, tales como la presencia de ecos móviles dentro de la vesícula, y signos de colecistitis, incluyendo el engrosamiento de la pared de la vesícula y la presencia de líquido perivesicular.",
-                  "image": "https://picsum.photos/400/200"
+                  "image": null
                 },
                 {
                   "description": "Criterios de evaluación: Profundización en los criterios ecográficos específicos para el diagnóstico, tales como el tamaño y la forma de los cálculos, la respuesta a la palpación sonográfica, y la visualización de las vías biliares dilatadas.",
-                  "image": "https://picsum.photos/400/200"
+                  "image": "/3.2-1.2.png"
                 },
                 {
                   "description": "Referencia: 'Ultrasound Clinics - Pediatric Ultrasound Intraabdominal' por Michael Riccabona. Este recurso profundiza en las técnicas específicas y los desafíos del diagnóstico de patologías de la vesícula y vías biliares en pediatría.",
-                  "image": "https://picsum.photos/400/200"
+                  "image": null
                 }
               ]
             }
@@ -367,7 +367,7 @@
       "title": "Patologías Hepáticas y Biliares en Pediatría: Diagnóstico y Manejo",
       "description": "Este módulo aborda las patologías hepáticas y biliares más comunes en pacientes pediátricos, incluyendo hepatitis, esteatosis hepática entre otras",
       "link": "/home/modules/patologias-hepaticas-biliares",
-      "quizLInk": "https://www.youtube.com/watch?v=oHg5SJYRHA0",
+      "quizLInk": null,
       "image": "/4.png",
       "topics": [
         {
@@ -380,15 +380,15 @@
               "contents": [
                 {
                   "description": "Descripción y causas: Cuando los niños tienen hepatitis, significa que tienen una inflamación del hígado. La hepatitis suele estar causada por un virus. Según datos de la Organización Mundial de la Salud (OMS), uno de cada tres habitantes del planeta, alrededor de 2000 millones de personas, está infectado por el virus de la hepatitis B, y uno de cada doce padece infección crónica por hepatitis B (VHB) o por hepatitis C (VHC). La hepatitis A y E se contrae por la ingesta de agua o comida contaminada, al tiempo que la hepatitis B, C y D se contagia por estar en contacto con fluidos corporales, es decir, mediante una transfusión de sangre, transmisión sexual o por haber compartido una jeringuilla, entre otras causas, con una persona portadora del virus.",
-                  "image": "https://picsum.photos/400/200"
+                  "image": "/4.1-1.1.png"
                 },
                 {
                   "description": "Hallazgos ecográficos característicos: En la ecografía, la hepatitis puede presentar un hígado agrandado con alteración en la ecogenicidad. En la hepatitis crónica, pueden aparecer signos de fibrosis o cirrosis, como superficie hepática irregular y aumento de la atenuación del sonido.",
-                  "image": "https://picsum.photos/400/200"
+                  "image": "/4.1-1.2.png"
                 },
                 {
                   "description": "Referencia: 'Pediatric Gastrointestinal and Liver Disease' por Robert Wyllie. Este texto proporciona una descripción integral de la presentación clínica, el diagnóstico ecográfico y las opciones terapéuticas para la hepatitis en niños.",
-                  "image": "https://picsum.photos/400/200"
+                  "image": null
                 }
               ]
             },
@@ -398,15 +398,15 @@
               "contents": [
                 {
                   "description": "Factores de riesgo y diagnóstico: La esteatosis hepática, comúnmente asociada con obesidad y trastornos metabólicos como la diabetes tipo 2, se caracteriza por la acumulación de grasa en las células hepáticas. La ecografía puede revelar un aumento de la ecogenicidad hepática, conocida como patrón de 'hígado brillante', y atenuación del sonido.",
-                  "image": "https://picsum.photos/400/200"
+                  "image": "/4.1-1.4.png"
                 },
                 {
                   "description": "Manejo clínico: El manejo de la esteatosis hepática se centra en abordar las causas subyacentes mediante la modificación de la dieta, el aumento de la actividad física y, en algunos casos, el uso de medicamentos que mejoran la sensibilidad a la insulina.",
-                  "image": "https://picsum.photos/400/200"
+                  "image": null
                 },
                 {
                   "description": "Referencia: 'Liver Disease in Children' por Frederick J. Suchy. Este recurso es esencial para entender el hígado graso en niños, abarcando desde la patogénesis hasta las estrategias de diagnóstico y manejo, destacando la contribución de la ecografía en la evaluación de la enfermedad.",
-                  "image": "https://picsum.photos/400/200"
+                  "image": null
                 }
               ]
             }
@@ -422,15 +422,15 @@
               "contents": [
                 {
                   "description": "Síntomas y diagnóstico: La presencia de cálculos biliares puede ser asintomática o presentar síntomas como dolor abdominal, ictericia y vómitos. La ecografía es la técnica de elección para detectar cálculos y evaluar la inflamación de la vesícula biliar, evidenciada por engrosamiento de la pared y líquido perivesicular en casos de colecistitis.",
-                  "image": "https://picsum.photos/400/200"
+                  "image": "/4.2-1.1.png"
                 },
                 {
                   "description": "Tratamiento y seguimiento: El tratamiento puede variar desde el manejo médico con observación y control del dolor hasta la colecistectomía en casos de complicaciones o colecistitis aguda.",
-                  "image": "https://picsum.photos/400/200"
+                  "image": "/4.2-1.2.png"
                 },
                 {
                   "description": "Referencia: 'Ultrasound Clinics - Pediatric Ultrasound Intraabdominal' por Michael Riccabona. Este texto ofrece una guía detallada para la interpretación de hallazgos ecográficos en enfermedades de la vesícula y vías biliares en la población pediátrica.",
-                  "image": "https://picsum.photos/400/200"
+                  "image": null
                 }
               ]
             },
@@ -444,7 +444,7 @@
                 },
                 {
                   "description": "Implicaciones del diagnóstico y opciones de tratamiento: Un diagnóstico temprano es vital y puede implicar la necesidad de cirugía, como la portoenterostomía de Kasai, para restaurar el flujo biliar y prevenir daños hepáticos.",
-                  "image": "https://picsum.photos/400/200"
+                  "image": ""
                 }
               ]
             }
@@ -457,27 +457,23 @@
       "description": "Este módulo presenta los avances más recientes en ecografía pediátrica hepática y biliar, incluyendo nuevas técnicas y tecnologías, así como sesiones prácticas con casos clínicos para mejorar la interpretación de imágenes y la toma de decisiones clínicas.",
       "image": "/5.png",
       "link": "/home/modules/avances-casos-clinicos",
-      "quizLInk": "https://www.youtube.com/watch?v=oHg5SJYRHA0",
+      "quizLInk": null,
       "topics": [
         {
           "title": "Avances recientes en ecografía pediátrica hepática y biliar",
-          "images": [],
+          "images": ["/5.1-1.png"],
           "subTopics": [
             {
               "title": "Nuevas técnicas y tecnologías: Aplicaciones del Doppler y otras modalidades avanzadas",
               "subLink": "/home/modules/avances-casos-clinicos/nuevas-tecnicas",
               "contents": [
                 {
-                  "description": "",
-                  "image": "https://picsum.photos/400/200"
+                  "description": "En la ecografía pediátrica hepática y biliar, los avances recientes incluyen el desarrollo de técnicas como la elastografía, que mide la rigidez de los tejidos del hígado para ayudar en la detección precoz de enfermedades hepáticas crónicas. Otras innovaciones incluyen mejoras en los sistemas de ultrasonido con capacidades de imagen tridimensional (3D) y cuatro dimensiones (4D), que proporcionan visualizaciones más detalladas y dinámicas de la anatomía hepática y biliar.",
+                  "image": "/5.1-1.1.png"
                 },
                 {
-                  "description": "",
-                  "image": "https://picsum.photos/400/200"
-                },
-                {
-                  "description": "",
-                  "image": "https://picsum.photos/400/200"
+                  "description": "El uso de Doppler en ecografía hepática y biliar pediátrica es fundamental para evaluar el flujo sanguíneo en los vasos hepáticos y biliares. Las modalidades avanzadas como el Doppler de onda continua y el Doppler tisular permiten diagnósticos más precisos de condiciones como la hipertensión portal y otras anomalías vasculares. También se han implementado técnicas de contraste mejorado, utilizando microburbujas para mejorar la visualización de estructuras vasculares y detectar lesiones hepáticas focales.",
+                  "image": "/5.1-1.2.png"
                 }
               ]
             }
@@ -485,22 +481,15 @@
         },
         {
           "title": "Sesiones prácticas con casos clínicos",
+          "images": ["/5.2-1.png"],
           "subTopics": [
             {
               "title": "Análisis de casos reales: Discusión grupal y resolución de problemas",
               "subLink": "/home/modules/avances-casos-clinicos/casos-clinicos",
               "contents": [
                 {
-                  "description": "",
-                  "image": "https://picsum.photos/400/200"
-                },
-                {
-                  "description": "",
-                  "image": "https://picsum.photos/400/200"
-                },
-                {
-                  "description": "",
-                  "image": "https://picsum.photos/400/200"
+                  "description": "Las sesiones prácticas se centran en el análisis de casos clínicos reales, permitiendo a los estudiantes aplicar directamente sus conocimientos teóricos. En estas sesiones, los participantes revisan imágenes de ultrasonido de pacientes pediátricos con diversas patologías hepáticas y biliares, como atresia biliar, hepatitis, y lesiones hepáticas traumáticas. La discusión de cada caso incluye la interpretación de imágenes, el diagnóstico diferencial y las posibles opciones de tratamiento. En estas sesiones prácticas, se enfatiza la importancia de una técnica de imagen adecuada, la selección de los modos de ultrasonido apropiados y la interpretación clínica en el contexto de la historia clínica del paciente. Los casos seleccionados ilustran cómo la ecografía pediátrica puede ser crucial para el manejo eficaz de las enfermedades hepáticas y biliares en niños, ofreciendo una perspectiva integral y práctica que complementa la teoría aprendida en los temas anteriores.",
+                  "image": "/5.2-1.1.png"
                 }
               ]
             }

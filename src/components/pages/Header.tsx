@@ -33,13 +33,13 @@ export const Header = ({ className }: { className?: string }) => {
             <Link href={"/home/gallery"}>Galeria</Link>
           </Button>
 
-          <Button asChild variant={"ghost"}>
+          {/* <Button asChild variant={"ghost"}>
             <Link href={"/about-us"}>Nosotros</Link>
           </Button>
 
           <Button asChild variant={"ghost"}>
             <Link href={"/support"}>Soporte</Link>
-          </Button>
+          </Button> */}
 
           {!data?.user.email && (
             <Button

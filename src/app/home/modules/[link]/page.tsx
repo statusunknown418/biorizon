@@ -114,14 +114,16 @@ export default function ModulesPage({ params }: { params: { link: string } }) {
         </ul>
       </Accordion>
 
-      <div className="flex flex-col rounded-xl border-l-4 border-green-500 bg-green-950 p-3 pl-6">
-        <p className="text-muted-foreground">Preparado para un quiz?</p>
-        <Button asChild variant={"link"} className="p-0">
-          <Link href={learningMod.quizLInk} target="_blank">
-            Sí, con todo
-          </Link>
-        </Button>
-      </div>
+      {!!learningMod.quizLInk && (
+        <div className="flex flex-col rounded-xl border-l-4 border-green-500 bg-green-950 p-3 pl-6">
+          <p className="text-muted-foreground">Preparado para un quiz?</p>
+          <Button asChild variant={"link"} className="p-0">
+            <Link href={learningMod.quizLInk} target="_blank">
+              Sí, con todo
+            </Link>
+          </Button>
+        </div>
+      )}
 
       <div className="flex items-center justify-center gap-4">
         <Button asChild variant={"outline"}>
