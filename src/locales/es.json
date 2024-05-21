@@ -279,7 +279,7 @@
       "topics": [
         {
           "title": "Ecografía hepática",
-          "images": ["/3.1-1.png", "/3.1-2.png"],
+          "images": ["/3.1-1.png", "/3.2-1.png"],
           "subTopics": [
             {
               "title": "Identificación de estructuras normales y variantes anatómicas",
@@ -321,26 +321,8 @@
         },
         {
           "title": "Ecografía de la vesícula biliar y vías biliares",
-          "images": ["/3.2-1.png", "/3.2-2.png"],
+          "images": ["/3.2-2.png", "/3.1-2.png"],
           "subTopics": [
-            {
-              "title": "Técnicas específicas para la visualización de la vesícula y vías biliares",
-              "subLink": "/home/modules/ecografia-hepatica/tecnicas-visualizacion",
-              "contents": [
-                {
-                  "description": "Protocolos de escaneo: Detalles sobre la técnica de escaneo para visualizar la vesícula biliar y vías biliares, incluyendo los ajustes específicos de profundidad y frecuencia del transductor para capturar imágenes claras de estas estructuras pequeñas.",
-                  "image": null
-                },
-                {
-                  "description": "Importancia de la preparación del paciente: Exploración de cómo un ayuno adecuado puede mejorar significativamente la visualización de la vesícula biliar, haciendo que esté distendida y libre de contenido que podría obscurecer la visualización de cálculos o polipos.",
-                  "image": "/3.2-1.1.png"
-                },
-                {
-                  "description": "Referencia: 'Diagnostic Ultrasound' por Carol M. Rumack. Ofrece orientaciones detalladas para la correcta visualización ecográfica de la vesícula y vías biliares, con protocolos específicos para diferentes escenarios clínicos.",
-                  "image": null
-                }
-              ]
-            },
             {
               "title": "Identificación de estructuras normales y variantes anatómicas",
               "subLink": "/home/modules/ecografia-hepatica/estructuras-anatomicas",
@@ -355,6 +337,24 @@
                 },
                 {
                   "description": "Referencia: 'Hepatology: A Textbook of Liver Disease' por David Zakim. Este texto ofrece una guía detallada sobre la anatomía hepática y su función, proporcionando un contexto esencial para entender las variaciones normales y patológicas.",
+                  "image": null
+                }
+              ]
+            },
+            {
+              "title": "Técnicas específicas para la visualización de la vesícula y vías biliares",
+              "subLink": "/home/modules/ecografia-hepatica/tecnicas-visualizacion",
+              "contents": [
+                {
+                  "description": "Protocolos de escaneo: Detalles sobre la técnica de escaneo para visualizar la vesícula biliar y vías biliares, incluyendo los ajustes específicos de profundidad y frecuencia del transductor para capturar imágenes claras de estas estructuras pequeñas.",
+                  "image": null
+                },
+                {
+                  "description": "Importancia de la preparación del paciente: Exploración de cómo un ayuno adecuado puede mejorar significativamente la visualización de la vesícula biliar, haciendo que esté distendida y libre de contenido que podría obscurecer la visualización de cálculos o polipos.",
+                  "image": "/3.2-1.1.png"
+                },
+                {
+                  "description": "Referencia: 'Diagnostic Ultrasound' por Carol M. Rumack. Ofrece orientaciones detalladas para la correcta visualización ecográfica de la vesícula y vías biliares, con protocolos específicos para diferentes escenarios clínicos.",
                   "image": null
                 }
               ]
