@@ -300,19 +300,19 @@
               ]
             },
             {
-              "title": "Hallazgos ecográficos en condiciones patológicas hepáticas comunes en niños",
-              "subLink": "/home/modules/ecografia-hepatica/patologias-comunes",
+              "title": "Técnicas específicas para la visualización del hígado",
+              "subLink": "/home/modules/ecografia-hepatica/tecnicas-visualizacion",
               "contents": [
                 {
-                  "description": "Patologías frecuentes: Discusión detallada sobre enfermedades hepáticas pediátricas como la hepatitis autoinmune, enfermedad de Wilson, y enfermedades metabólicas hereditarias que afectan el hígado.",
+                  "description": "Protocolos de escaneo: Detalles sobre la técnica de escaneo para visualizar la vesícula biliar y vías biliares, incluyendo los ajustes específicos de profundidad y frecuencia del transductor para capturar imágenes claras de estas estructuras pequeñas.",
                   "image": null
                 },
                 {
-                  "description": "Interpretación de hallazgos: Métodos para identificar características específicas de enfermedades como textura heterogénea del hígado, cambios en la ecogenicidad, y la presencia de nodulaciones o cicatrices.",
-                  "image": "/3.1-1.3.png"
+                  "description": "Importancia de la preparación del paciente: Exploración de cómo un ayuno adecuado puede mejorar significativamente la visualización de la vesícula biliar, haciendo que esté distendida y libre de contenido que podría obscurecer la visualización de cálculos o polipos.",
+                  "image": "/3.2-1.1.png"
                 },
                 {
-                  "description": "Referencia: 'Pediatric Gastrointestinal and Liver Disease' por Robert Wyllie. Proporciona información comprensiva sobre las enfermedades hepáticas en niños, con enfoque en el diagnóstico y manejo utilizando ecografía.",
+                  "description": "Referencia: 'Diagnostic Ultrasound' por Carol M. Rumack. Ofrece orientaciones detalladas para la correcta visualización ecográfica de la vesícula y vías biliares, con protocolos específicos para diferentes escenarios clínicos.",
                   "image": null
                 }
               ]
@@ -342,19 +342,19 @@
               ]
             },
             {
-              "title": "Diagnóstico de condiciones comunes como colelitiasis y colecistitis en niños",
-              "subLink": "/home/modules/ecografia-hepatica/colelitiasis-colecistitis",
+              "title": "Identificación de estructuras normales y variantes anatómicas",
+              "subLink": "/home/modules/ecografia-hepatica/estructuras-anatomicas",
               "contents": [
                 {
-                  "description": "Identificación de signos ecográficos: Ampliación sobre cómo detectar signos de colelitiasis, tales como la presencia de ecos móviles dentro de la vesícula, y signos de colecistitis, incluyendo el engrosamiento de la pared de la vesícula y la presencia de líquido perivesicular.",
-                  "image": null
+                  "description": "Anatomía hepática básica: Explicación exhaustiva de la anatomía del hígado, incluyendo detalles sobre los segmentos hepáticos, la vasculatura (arterias hepáticas, venas portal y hepáticas) y la importancia de identificar estructuras como la vena cava inferior y la vena porta en el contexto pediátrico.",
+                  "image": "/3.1-1.1.png"
                 },
                 {
-                  "description": "Criterios de evaluación: Profundización en los criterios ecográficos específicos para el diagnóstico, tales como el tamaño y la forma de los cálculos, la respuesta a la palpación sonográfica, y la visualización de las vías biliares dilatadas.",
-                  "image": "/3.2-1.2.png"
+                  "description": "Variantes anatómicas: Discusión sobre las variantes anatómicas frecuentes como el lóbulo de Riedel o la presencia de un ligamento venoso prominente, y cómo estas pueden impactar en la interpretación ecográfica.",
+                  "image": "/3.1-1.2.png"
                 },
                 {
-                  "description": "Referencia: 'Ultrasound Clinics - Pediatric Ultrasound Intraabdominal' por Michael Riccabona. Este recurso profundiza en las técnicas específicas y los desafíos del diagnóstico de patologías de la vesícula y vías biliares en pediatría.",
+                  "description": "Referencia: 'Hepatology: A Textbook of Liver Disease' por David Zakim. Este texto ofrece una guía detallada sobre la anatomía hepática y su función, proporcionando un contexto esencial para entender las variaciones normales y patológicas.",
                   "image": null
                 }
               ]

@@ -67,6 +67,19 @@ export const Sidebar = () => {
           Galeria
         </Link>
 
+        <Link
+          href={"/home/upload"}
+          className={cn(
+            selectedSegment === "upload"
+              ? "text-foreground"
+              : "text-muted-foreground",
+            "flex w-full items-center gap-2 rounded-lg border border-transparent p-3 text-sm transition-colors hover:bg-muted hover:text-foreground",
+          )}
+        >
+          <ImageIcon />
+          Comprobación de imágenes
+        </Link>
+
         <li className="mt-auto">
           <UserDropdown />
         </li>
