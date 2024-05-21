@@ -25,7 +25,7 @@ export const Sidebar = () => {
         </Link>
 
         <ul className="ml-7 flex flex-col gap-2">
-          {es.modules.map((mod, idx) => (
+          {es.modules.map((mod) => (
             <Link
               href={mod.link}
               key={mod.title}
@@ -36,7 +36,7 @@ export const Sidebar = () => {
                   : "text-muted-foreground",
               )}
             >
-              {idx + 1}. {mod.title}
+              {mod.title}
             </Link>
           ))}
         </ul>
