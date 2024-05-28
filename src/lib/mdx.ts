@@ -5,14 +5,30 @@ import path from "path";
 function parseFrontmatter(fileContent: string) {
   const frontmatterRegex = /---\s*([\s\S]*?)\s*---/;
   const content = fileContent.replace(frontmatterRegex, "").trim();
+  const frontmatter = fileContent.match(frontmatterRegex)?.[1] ?? "";
+  const metadata = frontmatter
+    .split("\n")
+    .map((line) => line.split(":").map((part) => part.trim()))
+    .reduce(
+      (acc, [key, value]) => {
+        if (!key) return acc;
 
-  const metadata: Partial<Metadata> = {};
+        // @ts-expect-error weird sh*t
+        acc[key] = value;
+        return acc;
+      },
+      {} as Record<string, string>,
+    );
 
   return { metadata: metadata as Metadata, content };
 }
 
 function getMDXFiles(dir: string) {
-  return fs.readdirSync(dir).filter((file) => path.extname(file) === ".mdx");
+  return fs
+    .readdirSync(dir)
+    .filter(
+      (file) => path.extname(file) === ".mdx" || path.extname(file) === ".md",
+    );
 }
 
 function readMDXFile(filePath: string) {
@@ -34,6 +50,6 @@ function getMDXData(dir: string) {
   });
 }
 
-export function getBlogPosts() {
-  return getMDXData(path.join(process.cwd(), "src", "markdown"));
+export function getBlogPosts(...subPaths: string[]) {
+  return getMDXData(path.join(process.cwd(), "src", "markdown", ...subPaths));
 }
