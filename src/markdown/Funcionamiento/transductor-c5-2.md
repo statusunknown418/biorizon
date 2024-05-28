@@ -1,3 +1,7 @@
+---
+title: 'Transductor C5-2 del Philips ClearVue 550'
+---
+
 # Transductor C5-2 del Philips ClearVue 550
 
 - ## Características Técnicas
