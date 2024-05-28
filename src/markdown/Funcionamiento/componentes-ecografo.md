@@ -1,5 +1,8 @@
+---
+title: Ecógrafo Philips ClearVue 550: Componentes y Funcionamiento
+---
 
-## Ecógrafo Philips ClearVue 550: Componentes y Funcionamiento
+# Ecógrafo Philips ClearVue 550: Componentes y Funcionamiento
 
 ### ¿Qué es un ecógrafo?
 
