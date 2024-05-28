@@ -1,3 +1,7 @@
+---
+title: 'Anatomía de la Vesícula Biliar y Vías Biliares'
+---
+
 # Anatomía de la Vesícula Biliar y Vías Biliares
   <p align="justify"> La vesícula biliar y las vías biliares desempeñan un papel crucial en el sistema digestivo, facilitando el almacenamiento y transporte de la bilis, que es esencial para la digestión y absorción de grasas. A continuación, se presenta una descripción detallada de la anatomía de la vesícula biliar y las vías biliares.
 
