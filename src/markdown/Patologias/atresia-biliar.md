@@ -1,3 +1,8 @@
+---
+title: 'Atresia Biliar Infantil'
+---
+
+
 # Atresia Biliar Infantil
 
 <p align="justify"> La atresia biliar es una patología congénita en la que los conductos biliares intrahepáticos y extrahepáticos se inflaman y obstruyen, impidiendo la eliminación de bilis del hígado. Esto provoca acumulación de bilis en el hígado (colestasis), lo que da lugar a inflamación, fibrosis y, eventualmente, cirrosis hepática. Los síntomas suelen aparecer entre las 2 y 8 semanas de vida e incluyen ictericia prolongada, heces pálidas y orina oscura.
