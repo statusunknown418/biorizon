@@ -1,3 +1,9 @@
+---
+title: 'Técnicas para la visualización del Hígado y Vías Biliares en ecografía pediátrica'
+---
+
+
+
 # Técnicas para la visualización del Hígado y Vías Biliares en ecografía pediátrica
 <p align="justify"> La ecografía es una herramienta diagnóstica crucial en la evaluación del hígado en pacientes pediátricos debido a su carácter no invasivo, seguridad y capacidad para proporcionar imágenes detalladas en tiempo real. A continuación, se presentan las técnicas específicas para la visualización del hígado en ecografía pediátrica, incluyendo consideraciones técnicas y consejos para optimizar la calidad de las imágenes.
 
