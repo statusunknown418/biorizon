@@ -1,3 +1,8 @@
+---
+title: 'Protocolos de Preparación para Ecografía Hepática y de Vías Biliares en Pacientes Pediátricos'
+---
+
+
 # Protocolos de Preparación para Ecografía Hepática y de Vías Biliares en Pacientes Pediátricos
 
 <p align="justify"> La preparación adecuada para una ecografía hepática y de vías biliares es esencial para obtener imágenes de alta calidad y garantizar un diagnóstico preciso, especialmente en pacientes pediátricos. A continuación, se presentan protocolos específicos de preparación, instrucciones pre-procedimiento y la importancia de una adecuada preparación.
