@@ -1,3 +1,8 @@
+---
+title: 'Posiciones y Movimientos para la obtención de imágenes en Ecografía Abdominal Pediátrica'
+---
+
+
 # Posiciones y Movimientos para la obtención de imágenes en Ecografía Abdominal Pediátrica
 
 <p align="justify"> La calidad de las imágenes en la ecografía abdominal pediátrica depende en gran medida de las posiciones y movimientos adecuados del transductor. A continuación, se detallan las técnicas de posicionamiento del transductor y los movimientos básicos necesarios para obtener imágenes óptimas, con un enfoque en la ergonomía y el confort del paciente pediátrico.
