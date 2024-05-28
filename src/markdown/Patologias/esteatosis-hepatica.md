@@ -1,3 +1,9 @@
+---
+title: 'Esteatosis Hepática Infantil (Hígado Graso)'
+---
+
+
+
 # Esteatosis Hepática Infantil (Hígado Graso)
 
 <p align="justify"> La esteatosis hepática infantil se caracteriza por la acumulación excesiva de grasa en las células hepáticas (hepatocitos). Esta condición puede ser asintomática o causar síntomas como fatiga, malestar abdominal y hepatomegalia (aumento del tamaño del hígado). Existen dos tipos principales:
