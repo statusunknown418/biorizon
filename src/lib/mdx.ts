@@ -53,3 +53,35 @@ function getMDXData(dir: string) {
 export function getBlogPosts(...subPaths: string[]) {
   return getMDXData(path.join(process.cwd(), "src", "markdown", ...subPaths));
 }
+
+export const getFolderNames = () => {
+  return fs
+    .readdirSync(path.join(process.cwd(), "src", "markdown"))
+    .filter((dir) =>
+      fs
+        .statSync(path.join(process.cwd(), "src", "markdown", dir))
+        .isDirectory(),
+    )
+    .map((dir) => dir.toLocaleLowerCase());
+};
+
+export const getSidebarItems = () => {
+  return [
+    {
+      path: "/home/mdx/eco",
+      label: "Ecografía",
+    },
+    {
+      path: "/home/mdx/funcionamiento",
+      label: "Funcionamiento",
+    },
+    {
+      path: "/home/mdx/patologias",
+      label: "Patologías",
+    },
+    {
+      path: "/home/mdx/tecnicas-de-img",
+      label: "Técnicas de imagen",
+    },
+  ];
+};
