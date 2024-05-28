@@ -1,3 +1,7 @@
+---
+title: 'Ecografía hepática'
+---
+
 # Ecografía hepática
 
 <p align="justify">  La ecografía del hígado en niños es una herramienta no invasiva y segura que utiliza ondas sonoras de alta frecuencia para generar imágenes detalladas del hígado y sus estructuras circundantes. Esta técnica es fundamental en la evaluación y diagnóstico de diversas condiciones hepáticas pediátricas.
