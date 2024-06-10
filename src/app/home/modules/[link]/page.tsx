@@ -93,6 +93,26 @@ export default function ModulesPage({ params }: { params: { link: string } }) {
         ))}
       </ul>
 
+      {!!learningMod.videos?.length && (
+        <div className="flex flex-col rounded-xl border-l-4 border-green-500 bg-green-950 p-3 pl-6">
+          <p className="text-muted-foreground">¿Te gustaría ver un video?</p>
+          <div className="flex flex-col gap-4">
+            {learningMod.videos?.map((video) => (
+              <iframe
+                width="480"
+                height="290"
+                key={video.url}
+                src={video.url}
+                title={video.title}
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen
+              />
+            ))}
+          </div>
+        </div>
+      )}
+
       {!!learningMod.quizLInk && (
         <div className="flex flex-col rounded-xl border-l-4 border-green-500 bg-green-950 p-3 pl-6">
           <p className="text-muted-foreground">Preparado para un quiz?</p>

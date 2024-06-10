@@ -24,52 +24,56 @@ La ecografía es una herramienta diagnóstica crucial en la evaluación del híg
 
 1.  **Planos de Corte**:
 
-    - **Plano Longitudinal**: El transductor se coloca en el hipocondrio derecho, paralelo a la línea media del cuerpo, y se desliza hacia arriba y hacia abajo para obtener una imagen longitudinal del hígado.
+            - **Plano Longitudinal**: El transductor se coloca en el hipocondrio derecho, paralelo a la línea media del cuerpo, y se desliza hacia arriba y hacia abajo para obtener una imagen longitudinal del hígado.
 
-      - <p align="justify"> Corte longitudinal del abdomen ligeramente a la izquierda de la línea media en el plano de la arteria: En esta sección se observa el hígado cortado longitudinalmente a la altura del lóbulo izquierdo, abarcando los segmentos laterales II y III. La imagen es triangular con bordes rectos y un ángulo menor de 45°, características que pueden desaparecer en pacientes con cirrosis. Debajo del hígado, se puede ver el esófago como una estructura ovalada de múltiples capas, y encima, el diafragma y el corazón. A la izquierda y debajo del lóbulo izquierdo del hígado, se encuentra el cuerpo del páncreas cortado transversalmente. En un plano más profundo, la aorta se ve cortada longitudinalmente como una estructura tubular anecoica, apoyada en los cuerpos vertebrales hiperecogénicos con sombra posterior. De la aorta emergen el tronco celíaco y la arteria mesentérica superior (AMS), y por encima de esta última, se ven la arteria y la vena esplénicas cortadas transversalmente.
+              - Corte longitudinal del abdomen ligeramente a la izquierda de la línea media en el plano de la arteria: En esta sección se observa el hígado cortado longitudinalmente a la altura del lóbulo izquierdo, abarcando los segmentos laterales II y III. La imagen es triangular con bordes rectos y un ángulo menor de 45°, características que pueden desaparecer en pacientes con cirrosis. Debajo del hígado, se puede ver el esófago como una estructura ovalada de múltiples capas, y encima, el diafragma y el corazón. A la izquierda y debajo del lóbulo izquierdo del hígado, se encuentra el cuerpo del páncreas cortado transversalmente. En un plano más profundo, la aorta se ve cortada longitudinalmente como una estructura tubular anecoica, apoyada en los cuerpos vertebrales hiperecogénicos con sombra posterior. De la aorta emergen el tronco celíaco y la arteria mesentérica superior (AMS), y por encima de esta última, se ven la arteria y la vena esplénicas cortadas transversalmente.
 
-       <p align="center">
-         <img src="https://github.com/statusunknown418/biorizon/assets/89549012/6699355d-7d9a-487f-b990-c203556a54d4"  width="400" height="200"/> </p>
-       <em><p align="center">Corte longitudinal </p></em>
+                 <img src="https://github.com/statusunknown418/biorizon/assets/89549012/6699355d-7d9a-487f-b990-c203556a54d4"  width="400" height="200"/>
+                 <p align="center">Corte longitudinal </p>
 
-      Corte longitudinal del abdomen ligeramente a la derecha de la línea media a la altura del plano de la vena cava inferior: En este plano se puede observar el lóbulo izquierdo del hígado y, debajo de él, el lóbulo caudado o segmento I, separados por la cisura del ligamento venoso (resto del conducto venoso embrionario de Arancio) y la vena cava inferior cortada longitudinalmente en un plano más profundo. El lóbulo caudado puede aumentar de tamaño en pacientes con hepatopatía crónica. En el parénquima hepático se encuentra la vena suprahepática izquierda (VHI), correspondiente al segmento IV. En este mismo corte, se puede ver cómo la vena cava inferior entra en la aurícula derecha o cómo la VHI desemboca en la vena cava.
+              Corte longitudinal del abdomen ligeramente a la derecha de la línea media a la altura del plano de la vena cava inferior: En este plano se puede observar el lóbulo izquierdo del hígado y, debajo de él, el lóbulo caudado o segmento I, separados por la cisura del ligamento venoso (resto del conducto venoso embrionario de Arancio) y la vena cava inferior cortada longitudinalmente en un plano más profundo. El lóbulo caudado puede aumentar de tamaño en pacientes con hepatopatía crónica. En el parénquima hepático se encuentra la vena suprahepática izquierda (VHI), correspondiente al segmento IV. En este mismo corte, se puede ver cómo la vena cava inferior entra en la aurícula derecha o cómo la VHI desemboca en la vena cava.
 
-      <p align="center">
-         <img src="https://github.com/statusunknown418/biorizon/assets/89549012/818ee8bb-62cd-4778-865a-04ec99e996dc"  width="400" height="200"> </p>
-       <em><p align="center">Corte longitudinal </p></em>
+              <p align="center">
+                <img src="https://github.com/statusunknown418/biorizon/assets/89549012/818ee8bb-62cd-4778-865a-04ec99e996dc"  width="400" height="200" />
+              </p>
 
-      - <p align="justify"> Corte longitudinal del abdomen a la derecha de línea media a la altura del plano de corte de la vesícula: En este plano se observa un corte longitudinal del lóbulo derecho del hígado y de la vesícula biliar, que está llena de bilis. Es importante examinar el grosor y las características de sus paredes, así como verificar si hay contenido sólido en su interior. En este mismo plano se puede ver el hilio hepático, que incluye la vena porta, la arteria hepática por encima y la vía biliar por debajo.
+              <p align="center">Corte longitudinal </p>
 
-      <p align="center">
-         <img src="https://github.com/statusunknown418/biorizon/assets/89549012/1679a1f5-1fb7-403f-8a89-c986b23e7780"  width="400" height="200"> </p>
-       <em><p align="center">Corte longitudinal </p></em>
+              - Corte longitudinal del abdomen a la derecha de línea media a la altura del plano de corte de la vesícula: En este plano se observa un corte longitudinal del lóbulo derecho del hígado y de la vesícula biliar, que está llena de bilis. Es importante examinar el grosor y las características de sus paredes, así como verificar si hay contenido sólido en su interior. En este mismo plano se puede ver el hilio hepático, que incluye la vena porta, la arteria hepática por encima y la vía biliar por debajo.
 
-    - **Plano Transversal**: El transductor se coloca perpendicular al plano longitudinal para obtener cortes transversales del hígado.
+                <p align="center">
+                   <img src="https://github.com/statusunknown418/biorizon/assets/89549012/1679a1f5-1fb7-403f-8a89-c986b23e7780"  width="400" height="200" />
+                </p>
 
-      - <p align="justify"> Corte transversal del abdomen a la altura del epigastrio: Este corte es típico de los cortes transversales. En la imagen se observa el lóbulo izquierdo del hígado (LHI) cortado transversalmente. Cerca del transductor, aparece una imagen hiperecogénica y redondeada que corresponde al ligamento redondo (resto de la vena umbilical embrionaria), a veces con una sombra posterior pronunciada. Es importante no confundirlo con un tumor; en caso de duda, se puede girar la sonda 90° y verificar que adopta una forma lineal ("pico de ave"). En un corte longitudinal, el ligamento redondo aparece como una imagen lineal hiperecogénica que conecta la porta izquierda con la superficie hepática. Esta vena puede recanalizarse si hay hipertensión portal significativa. En el plano profundo se observa la columna vertebral, y por encima de esta, la vena cava inferior (VCI) hacia la derecha y la aorta hacia la izquierda, de la cual emerge el tronco celíaco con dos de sus ramas: la arteria hepática y la arteria esplénica. Entre la cava y la arteria hepática se encuentra la vena porta.
+                <p align="center">Corte longitudinal</p>
 
-      <p align="center">
-         <img src="https://github.com/statusunknown418/biorizon/assets/89549012/0aea9e25-9f9d-43ce-8e5f-df85aad90572"  width="400" height="200"> </p>
-       <em><p align="center">Corte transversal </p></em>
+            - **Plano Transversal**: El transductor se coloca perpendicular al plano longitudinal para obtener cortes transversales del hígado.
 
-      - <p align="justify"> Corte transversal del abdomen a la altura del epigastrio y a la altura del páncreas: Se observa un corte transversal del hígado y un corte longitudinal del páncreas, en el que se distinguen el proceso uncinado, la cabeza (con la porción inferior del colédoco) y el cuerpo. Debajo del páncreas, se encuentra la vena esplénica y la arteria mesentérica superior con su característico halo hiperecogénico. Más profundamente, se visualiza la columna vertebral, con la vena cava inferior (VCI) hacia la derecha y la aorta hacia la izquierda. Entre la aorta y la arteria mesentérica superior (AMS) se encuentra la vena renal izquierda, formando la pinza aortomesentérica. De la aorta emerge la arteria renal izquierda (ARI).
+              - Corte transversal del abdomen a la altura del epigastrio: Este corte es típico de los cortes transversales. En la imagen se observa el lóbulo izquierdo del hígado (LHI) cortado transversalmente. Cerca del transductor, aparece una imagen hiperecogénica y redondeada que corresponde al ligamento redondo (resto de la vena umbilical embrionaria), a veces con una sombra posterior pronunciada. Es importante no confundirlo con un tumor; en caso de duda, se puede girar la sonda 90° y verificar que adopta una forma lineal ("pico de ave"). En un corte longitudinal, el ligamento redondo aparece como una imagen lineal hiperecogénica que conecta la porta izquierda con la superficie hepática. Esta vena puede recanalizarse si hay hipertensión portal significativa. En el plano profundo se observa la columna vertebral, y por encima de esta, la vena cava inferior (VCI) hacia la derecha y la aorta hacia la izquierda, de la cual emerge el tronco celíaco con dos de sus ramas: la arteria hepática y la arteria esplénica. Entre la cava y la arteria hepática se encuentra la vena porta.
 
-      Este corte es especialmente útil porque permite obtener dos cortes oblicuos importantes:
+              <p align="center">
+                 <img src="https://github.com/statusunknown418/biorizon/assets/89549012/0aea9e25-9f9d-43ce-8e5f-df85aad90572"  width="400" height="200" /> </p>
+               <em><p align="center">Corte transversal </p></em>
 
-          Al girar el transductor hacia el hombro derecho del paciente, se despliega la vena porta en su cruce con la arteria hepática. En este punto se mide su calibre, que debe ser inferior a 12 mm.
+              - Corte transversal del abdomen a la altura del epigastrio y a la altura del páncreas: Se observa un corte transversal del hígado y un corte longitudinal del páncreas, en el que se distinguen el proceso uncinado, la cabeza (con la porción inferior del colédoco) y el cuerpo. Debajo del páncreas, se encuentra la vena esplénica y la arteria mesentérica superior con su característico halo hiperecogénico. Más profundamente, se visualiza la columna vertebral, con la vena cava inferior (VCI) hacia la derecha y la aorta hacia la izquierda. Entre la aorta y la arteria mesentérica superior (AMS) se encuentra la vena renal izquierda, formando la pinza aortomesentérica. De la aorta emerge la arteria renal izquierda (ARI).
 
-         <p align="center">
-             <img src="https://github.com/statusunknown418/biorizon/assets/89549012/e1a9515e-c442-4c0d-aec4-7a525060bd74"  width="600" height="200"> </p>
-       <em><p align="center">Corte transversal </p></em>
+              Este corte es especialmente útil porque permite obtener dos cortes oblicuos importantes:
 
-      - <p align="justify"> Si por el contrario, se gira el transductor hacia el hombro izquierdo del paciente, se consigue visualizar la vena esplénica en su totalidad y por tanto la cola del páncreas, que suele ser difícil de valorar desde el corte transversal.
-             Desde este corte transversal se hace un barrido hacia el ombligo del paciente explorando la aorta en su recorrido hasta su bifurcación en las dos arterias ilíacas, para de este modo descartar la presencia de aneurismas aórticos.
+                  Al girar el transductor hacia el hombro derecho del paciente, se despliega la vena porta en su cruce con la arteria hepática. En este punto se mide su calibre, que debe ser inferior a 12 mm.
 
-      <p align="center">
-         <img src="https://github.com/statusunknown418/biorizon/assets/89549012/d3f7afa8-56ce-4208-9320-98bc08cfd12a"  width="400" height="200"> </p>
-       <em><p align="center">Corte transversal </p></em>
+                <p align="center">
+                  <img src="https://github.com/statusunknown418/biorizon/assets/89549012/e1a9515e-c442-4c0d-aec4-7a525060bd74"  width="600" height="200" />
+                </p>
 
-    - **Plano Oblicuo y Coronal**: En ocasiones, se pueden utilizar planos oblicuos y coronales para obtener vistas adicionales del hígado y las estructuras adyacentes.
+                <p align="center">Corte transversal </p>
+
+              - Si por el contrario, se gira el transductor hacia el hombro izquierdo del paciente, se consigue visualizar la vena esplénica en su totalidad y por tanto la cola del páncreas, que suele ser difícil de valorar desde el corte transversal.
+                Desde este corte transversal se hace un barrido hacia el ombligo del paciente explorando la aorta en su recorrido hasta su bifurcación en las dos arterias ilíacas, para de este modo descartar la presencia de aneurismas aórticos.
+
+              <img src="https://github.com/statusunknown418/biorizon/assets/89549012/d3f7afa8-56ce-4208-9320-98bc08cfd12a"  width="400" height="200" />
+              <p align="center">Corte transversal </p>
+
+            - **Plano Oblicuo y Coronal**: En ocasiones, se pueden utilizar planos oblicuos y coronales para obtener vistas adicionales del hígado y las estructuras adyacentes.
 
 2.  **Medición del Tamaño Hepático**:
     - **Longitud del Lóbulo Derecho**: Medición desde el borde superior (diafragma) hasta el borde inferior del lóbulo derecho, a lo largo de la línea media clavicular.
