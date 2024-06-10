@@ -23,9 +23,6 @@ La calidad de las imágenes en la ecografía abdominal pediátrica depende en gr
 3. **Angulación**:
    - Inclinar ligeramente el transductor hacia arriba o hacia abajo para modificar el ángulo de incidencia del haz ultrasónico y visualizar mejor estructuras profundas o superficiales, como el diafragma o la vejiga.
 
-https://www.youtube.com/watch?v=LQdlbtHSiJ4
-https://www.youtube.com/watch?v=QqhosgKRNMk
-https://www.youtube.com/watch?v=lsDVzWu_UdQ
 
 ---
 
