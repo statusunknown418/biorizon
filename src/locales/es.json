@@ -162,7 +162,7 @@
     {
       "title": "Técnicas de Imagen y Manejo del Transductor",
       "description": "Este módulo se enfoca en las técnicas de imagen y el manejo del transductor C5-2 para obtener imágenes óptimas de los órganos abdominales en pacientes pediátricos.",
-      "videos": [{"title": "TALLER PRÁCTICO: ECOGRAFÍA ABDOMINAL", "url": "https://www.youtube.com/watch?v=lsDVzWu_UdQ"}, {"title": "ULTRASONIDO DE HIGADO Y VIAS BILIARES", "url": "https://www.youtube.com/watch?v=LQdlbtHSiJ4", {"title": "SEGMENTACIÓN HEPÁTICA POR ULTRASONIDOS", "url": "https://www.youtube.com/watch?v=buO_4ZGFh9U"],
+      "videos": [{"title": "TALLER PRÁCTICO: ECOGRAFÍA ABDOMINAL", "url": "https://www.youtube.com/embed/lsDVzWu_UdQ?si=DRqUM8R6l1fxNp33"}, {"title": "ULTRASONIDO DE HIGADO Y VIAS BILIARES", "url": "https://www.youtube.com/embed/LQdlbtHSiJ4?si=YlVXiMIlSWVbfH_L", {"title": "SEGMENTACIÓN HEPÁTICA POR ULTRASONIDOS", "url": "https://www.youtube.com/embed/buO_4ZGFh9U?si=ZP4bKEiQOCOsPA4D"],
       "image": "/2.png",
       "link": "/home/modules/tecnicas-imagen",
       "quizLInk": "https://tally.so/r/3EPxRq",
