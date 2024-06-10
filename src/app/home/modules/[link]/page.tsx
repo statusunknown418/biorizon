@@ -94,8 +94,8 @@ export default function ModulesPage({ params }: { params: { link: string } }) {
       </ul>
 
       {!!learningMod.videos?.length && (
-        <div className="flex flex-col rounded-xl border-l-4 border-green-500 bg-green-950 p-3 pl-6">
-          <p className="text-muted-foreground">¿Te gustaría ver un video?</p>
+        <div>
+          <p className="mb-4 text-muted-foreground">Videos complementarios</p>
           <div className="flex flex-col gap-4">
             {learningMod.videos?.map((video) => (
               <iframe
