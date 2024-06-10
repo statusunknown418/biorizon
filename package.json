@@ -11,7 +11,8 @@
     "lint": "next lint",
     "start": "next start",
     "test": "jest --no-cache",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "cypress:open": "cypress open"
   },
   "dependencies": {
     "@auth/drizzle-adapter": "^0.7.0",
@@ -99,6 +100,7 @@
     "@types/react-dom": "^18.2.25",
     "@typescript-eslint/eslint-plugin": "^7.7.0",
     "@typescript-eslint/parser": "^7.7.0",
+    "cypress": "^13.10.0",
     "drizzle-dbml-generator": "^0.6.1",
     "drizzle-kit": "^0.20.14",
     "eslint": "^8.57.0",
