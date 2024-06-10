@@ -6,6 +6,7 @@ import { Button } from "~/components/ui/button";
 import es from "~/locales/es.json";
 
 export default function ModulesPage({ params }: { params: { link: string } }) {
+  console.log(params);
   const learningMod = es.modules.find(
     (mod) => mod.link.split("/home/modules/")[1] === params.link,
   );

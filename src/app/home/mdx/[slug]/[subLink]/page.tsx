@@ -7,6 +7,7 @@ export default function SubItemPage({
 }: {
   params: { slug: string; subLink: string };
 }) {
+  console.log(params);
   const post = getBlogPosts(params.slug).find(
     (post) => post.slug === params.subLink,
   );

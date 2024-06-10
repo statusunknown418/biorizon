@@ -324,7 +324,7 @@
           "subTopics": [
             {
               "title": "Hepatitis aguda y crónica",
-              "subLink": "/home/mdx/patologias/hepatitis",
+              "subLink": "/home/mdx/patologias-hepaticas-biliares/hepatitis",
               "contents": [
                 {
                   "description": "Descripción y causas: Cuando los niños tienen hepatitis, significa que tienen una inflamación del hígado. La hepatitis suele estar causada por un virus. Según datos de la Organización Mundial de la Salud (OMS), uno de cada tres habitantes del planeta, alrededor de 2000 millones de personas, está infectado por el virus de la hepatitis B, y uno de cada doce padece infección crónica por hepatitis B (VHB) o por hepatitis C (VHC). La hepatitis A y E se contrae por la ingesta de agua o comida contaminada, al tiempo que la hepatitis B, C y D se contagia por estar en contacto con fluidos corporales, es decir, mediante una transfusión de sangre, transmisión sexual o por haber compartido una jeringuilla, entre otras causas, con una persona portadora del virus.",
@@ -342,7 +342,7 @@
             },
             {
               "title": "Esteatosis hepática (hígado graso)",
-              "subLink": "/home/mdx/patologias/esteatosis-hepatica",
+              "subLink": "/home/mdx/patologias-hepaticas-biliares/esteatosis-hepatica",
               "contents": [
                 {
                   "description": "Factores de riesgo y diagnóstico: La esteatosis hepática, comúnmente asociada con obesidad y trastornos metabólicos como la diabetes tipo 2, se caracteriza por la acumulación de grasa en las células hepáticas. La ecografía puede revelar un aumento de la ecogenicidad hepática, conocida como patrón de 'hígado brillante', y atenuación del sonido.",
@@ -366,7 +366,7 @@
           "subTopics": [
             {
               "title": "Colelitiasis y colecistitis",
-              "subLink": "/home/mdx/patologias/colelitiasis-colecistitis",
+              "subLink": "/home/mdx/patologias-hepaticas-biliares/colelitiasis-colecistitis",
               "contents": [
                 {
                   "description": "Síntomas y diagnóstico: La presencia de cálculos biliares puede ser asintomática o presentar síntomas como dolor abdominal, ictericia y vómitos. La ecografía es la técnica de elección para detectar cálculos y evaluar la inflamación de la vesícula biliar, evidenciada por engrosamiento de la pared y líquido perivesicular en casos de colecistitis.",
@@ -384,7 +384,7 @@
             },
             {
               "title": "Atresia biliar",
-              "subLink": "/home/mdx/patologias/atresia-biliar",
+              "subLink": "/home/mdx/patologias-hepaticas-biliares/atresia-biliar",
               "contents": [
                 {
                   "description": "Diagnóstico en neonatos y lactantes: La atresia biliar es una enfermedad grave caracterizada por la obstrucción progresiva de las vías biliares. La ecografía puede mostrar una vesícula biliar pequeña o ausente, vías biliares no visualizables y signos de fibrosis hepática.",

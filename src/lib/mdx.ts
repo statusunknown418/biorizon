@@ -76,7 +76,7 @@ export const getSidebarItems = () => {
       label: "Funcionamiento",
     },
     {
-      path: "/home/mdx/patologias",
+      path: "/home/mdx/patologias-hepaticas-biliares",
       label: "Patologías",
     },
     {
