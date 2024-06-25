@@ -2,6 +2,8 @@
 
 import Image from "next/image";
 import { useState } from "react";
+import { PiNoteBlank } from "react-icons/pi";
+import { toast } from "sonner";
 import { UploadDropzone } from "~/lib/uploaders";
 
 export default function CheckImagesPage() {
@@ -16,28 +18,38 @@ export default function CheckImagesPage() {
       <UploadDropzone
         endpoint="imageUploader"
         className="border"
-        onUploadBegin={console.log}
+        onUploadBegin={(f) => toast.info("Subiendo imágenes...")}
         onClientUploadComplete={(f) => setImage(f)}
-        content={{
-          label: "Arrastra y suelta tus imágenes aquí",
-          button: "Seleccionar",
-        }}
         appearance={{
           container: "border border-primary/50",
         }}
       />
-
-      {images?.map((image, idx) => (
-        <article key={idx} className="flex gap-4">
-          <Image src={image.url} alt="uploaded-image" />
-        </article>
-      ))}
 
       <p className="text-sm text-muted-foreground">
         Utiliza un modelo entrenado de OpenAI para comparar tus imágenes con
         nuestras pruebas internas y recibirás un informe detallado sobre ello y
         como mejorar.
       </p>
+
+      <h2>Mis imágenes</h2>
+
+      {!images?.length && (
+        <p className="flex max-w-sm flex-col items-center gap-4 rounded-lg border p-5 text-sm text-muted-foreground">
+          <PiNoteBlank size={20} />
+          No has subido ninguna imagen
+        </p>
+      )}
+
+      {images?.map((image, idx) => (
+        <article key={idx} className="flex gap-4">
+          <Image
+            src={image.url}
+            alt="uploaded-image"
+            width={200}
+            height={200}
+          />
+        </article>
+      ))}
     </section>
   );
 }

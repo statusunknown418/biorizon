@@ -22,6 +22,10 @@ const config = {
         protocol: "https",
         hostname: "lh3.googleusercontent.com",
       },
+      {
+        protocol: "https",
+        hostname: "utfs.io",
+      },
     ],
   },
   pageExtensions: ["md", "mdx", "tsx", "ts", "js", "jsx"],
