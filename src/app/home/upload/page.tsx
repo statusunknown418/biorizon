@@ -2,12 +2,13 @@
 
 import Image from "next/image";
 import { useState } from "react";
-import { PiNoteBlank } from "react-icons/pi";
+import { PiNoteBlank, PiTrash } from "react-icons/pi";
 import { toast } from "sonner";
+import { Button } from "~/components/ui/button";
 import { UploadDropzone } from "~/lib/uploaders";
 
 export default function CheckImagesPage() {
-  const [images, setImage] = useState<{ url: string }[]>();
+  const [images, setImage] = useState<{ url: string }[]>([]);
 
   return (
     <section className="mx-auto flex max-w-5xl flex-col gap-8">
@@ -18,8 +19,8 @@ export default function CheckImagesPage() {
       <UploadDropzone
         endpoint="imageUploader"
         className="border"
-        onUploadBegin={(f) => toast.info("Subiendo imágenes...")}
-        onClientUploadComplete={(f) => setImage(f)}
+        onUploadBegin={() => toast.info("Subiendo imágenes...")}
+        onClientUploadComplete={(f) => setImage((prev) => [...prev, ...f])}
         appearance={{
           container: "border border-primary/50",
         }}
@@ -40,16 +41,29 @@ export default function CheckImagesPage() {
         </p>
       )}
 
-      {images?.map((image, idx) => (
-        <article key={idx} className="flex gap-4">
-          <Image
-            src={image.url}
-            alt="uploaded-image"
-            width={200}
-            height={200}
-          />
-        </article>
-      ))}
+      <div className="flex flex-wrap gap-4">
+        {images?.map((image, idx) => (
+          <article key={idx} className="relative flex max-w-max gap-4">
+            <Button
+              size={"icon"}
+              className="absolute -right-2 -top-2 min-w-8"
+              onClick={() =>
+                setImage((prev) => prev.filter((i) => i.url !== image.url))
+              }
+            >
+              <PiTrash />
+            </Button>
+
+            <Image
+              alt="uploaded-image"
+              className="w-full object-cover"
+              src={image.url}
+              width={200}
+              height={200}
+            />
+          </article>
+        ))}
+      </div>
     </section>
   );
 }
