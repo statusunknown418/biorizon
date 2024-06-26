@@ -15,7 +15,7 @@ export const GET = async () => {
         () => ({
           id: faker.number.int(),
           name: faker.commerce.productName(),
-          quantity: faker.datatype.number({ min: 1, max: 10 }),
+          quantity: faker.number.int({ min: 1, max: 10 }),
         }),
       ),
     },
